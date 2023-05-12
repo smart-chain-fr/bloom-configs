@@ -1,5 +1,5 @@
 {
-  "app": "erable",
+  "app": "versity",
   "theme": {
     "colors": {
       "primary": "string",
@@ -10,19 +10,27 @@
     "Theme": {
       "enabled": false
     },
+    "graphicalChart": {
+      "errorButtonRed": {
+        "enabled": false
+      },
+      "errorButtonPrimary": {
+        "enabled": true
+      }
+    },
     "Marketplace": {
       "primary": {
-        "enabled": true
+        "enabled": false
       },
       "secondary": {
-        "enabled": true
+        "enabled": false
       }
     },
     "NFT": {
       "enabled": true,
       "props": {
         "hover": {
-          "enabled": true
+          "enabled": false
         }
       }
     },
@@ -124,7 +132,25 @@
       "enabled": true,
       "props": {
         "Navigation": {
-          "enabled": true
+          "enabled": true, 
+          "props": {
+            "Profile": {
+              "enabled": true
+            }, 
+            "History": {
+              "enabled": true
+            },
+            "Settings": {
+              "enabled": false, 
+              "path": "/settings"
+            },
+            "MyListings": {
+              "enabled": true
+            }, 
+            "MyOrders": {
+              "enabled": true
+            }
+          }
         },
         "Buttons": {
           "enabled": false
@@ -137,10 +163,22 @@
     "Modals": {
       "props": {
         "AddFunds": {
-          "enabled": true
+          "enabled": false
         },
         "CreateAuction": {
+          "enabled": false
+        }, 
+        "hasAuctionAndFixedPricePurchase": {
           "enabled": true
+        },
+        "hasCurrencySymbolDisplayed": {
+          "enabled": true
+        }, 
+        "RegisterModalEmailAtTheTop": {
+          "enabled": true
+        }, 
+        "RegisterModalEmailAtTheBottom": {
+          "enabled": false
         }
       }
     },
@@ -152,13 +190,13 @@
         }
       },
       "Launchpad": {
-        "enabled": true,
+        "enabled": false,
         "props": {
           "path": "/launchpad"
         }
       },
       "Launches": {
-        "enabled": true,
+        "enabled": false,
         "props": {
           "path": "/launches",
           "pages": {
@@ -181,7 +219,7 @@
         }
       },
       "Market": {
-        "enabled": true,
+        "enabled": false,
         "props": {
           "path": "/market",
           "pages": {
@@ -377,27 +415,27 @@
         }
       },
       "Collection": {
-        "enabled": true,
+        "enabled": false,
         "props": {
           "path": "/collection/:collectionAddress",
           "pages": {
-            "Nfts": {
-              "enabled": true,
-              "props": {
-                "path": "parsells"
-              }
-            },
             "Activities": {
               "enabled": true,
               "props": {
                 "path": "activities"
+              }
+            },
+            "Nfts": {
+              "enabled": true,
+              "props": {
+                "path": "parsells"
               }
             }
           }
         }
       },
       "NFT": {
-        "enabled": true,
+        "enabled": false,
         "props": {
           "path": "/asset/:collectionAddress/:tokenId"
         }

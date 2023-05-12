@@ -1,8 +1,8 @@
 {
   "app": "versity",
-  "domain": "localhost",
+  "domain": "versity.io",
   "roundedDecimals": "4",
-  "defaultTheme": "light",
+  "defaultTheme": "dark",
   "languages": {
     "default": "en",
     "available": ["en", "fr"]
@@ -15,7 +15,7 @@
     "type": "ethereum",
     "ethereum": {
       "infuraId": "1e53a3471c1d44db95ffa97cb16b3d85",
-      "rpc": "https://rpc.ankr.com/polygon_mumbai",
+      "rpc": "https://hidden-hidden-wind.matic-testnet.quiknode.pro/0519c248a733a433c1c85c4ddbfa6c37228dbcd0/",
       "network": "matic",
       "name": "Polygon Testnet",
       "blockExplorer": "https://mumbai.polygonscan.com/",
@@ -204,12 +204,12 @@
   ],
   "api": {
     "rootUrl": "{{origin}}/api",
-    "back": "http://localhost:1337/api",
+    "back": "https://api.ppd.versity.smart-chain.fr/api",
     "coingecko": "https://api.coingecko.com/api/v3",
     "binance": "https://api.binance.com/api/v3"
   },
   "socket": {
-    "url": "http://localhost:3001"
+    "url": "TODO"
   },
   "sentry": {
     "enabled": false,
