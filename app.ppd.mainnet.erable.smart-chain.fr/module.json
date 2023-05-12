@@ -10,27 +10,35 @@
     "Theme": {
       "enabled": false
     },
-    "Marketplace": {
-      "primary": {
+    "graphicalChart": {
+      "errorButtonRed": {
         "enabled": true
       },
+      "errorButtonPrimary": {
+        "enabled": false
+      }
+    },
+    "Marketplace": {
+      "primary": {
+        "enabled": false
+      },
       "secondary": {
-        "enabled": true
+        "enabled": false
       }
     },
     "NFT": {
       "enabled": true,
       "props": {
         "hover": {
-          "enabled": true
+          "enabled": false
         }
       }
     },
     "Auctions": {
-      "enabled": true
+      "enabled": false
     },
     "PaymentCreditCard": {
-      "enabled": true
+      "enabled": false
     },
     "PaymentCrypto": {
       "enabled": true
@@ -42,7 +50,7 @@
           "enabled": true
         },
         "Launchpad": {
-          "enabled": true
+          "enabled": false
         },
         "Market": {
           "enabled": true
@@ -124,7 +132,25 @@
       "enabled": true,
       "props": {
         "Navigation": {
-          "enabled": true
+          "enabled": true, 
+          "props": {
+            "Profile": {
+              "enabled": true
+            }, 
+            "History": {
+              "enabled": false
+            },
+            "Settings": {
+              "enabled": true, 
+              "path": "/settings"
+            },
+            "MyListings": {
+              "enabled": true
+            }, 
+            "MyOrders": {
+              "enabled": true
+            }
+          }
         },
         "Buttons": {
           "enabled": false
@@ -137,9 +163,21 @@
     "Modals": {
       "props": {
         "AddFunds": {
-          "enabled": true
+          "enabled": false
         },
         "CreateAuction": {
+          "enabled": false
+        }, 
+        "hasAuctionAndFixedPricePurchase": {
+          "enabled": false
+        }, 
+        "hasCurrencySymbolDisplayed": {
+          "enabled": false
+        }, 
+        "RegisterModalEmailAtTheTop": {
+          "enabled": false
+        }, 
+        "RegisterModalEmailAtTheBottom": {
           "enabled": true
         }
       }
@@ -152,13 +190,13 @@
         }
       },
       "Launchpad": {
-        "enabled": true,
+        "enabled": false,
         "props": {
           "path": "/launchpad"
         }
       },
       "Launches": {
-        "enabled": true,
+        "enabled": false,
         "props": {
           "path": "/launches",
           "pages": {
@@ -181,7 +219,7 @@
         }
       },
       "Market": {
-        "enabled": true,
+        "enabled": false,
         "props": {
           "path": "/market",
           "pages": {
@@ -205,7 +243,7 @@
             }
           },
           "BannerCarrousel": {
-            "enabled": false
+            "enabled": true
           },
           "Category": {
             "enabled": false
@@ -268,7 +306,7 @@
                       "enabled": true,
                       "props": {
                         "History": {
-                          "enabled": true,
+                          "enabled": false,
                           "props": {
                             "path": "other/history"
                           }
@@ -280,7 +318,7 @@
               }
             },
             "Nfts": {
-              "enabled": true,
+              "enabled": false,
               "props": {
                 "path": "parsells"
               }
@@ -339,7 +377,7 @@
             }
           },
           "ProgressBars": {
-            "enabled": true,
+            "enabled": false,
             "props": {
               "path": "/components/progressbars"
             }
@@ -377,27 +415,27 @@
         }
       },
       "Collection": {
-        "enabled": true,
+        "enabled": false,
         "props": {
           "path": "/collection/:collectionAddress",
           "pages": {
-            "Nfts": {
-              "enabled": true,
-              "props": {
-                "path": "parsells"
-              }
-            },
             "Activities": {
               "enabled": true,
               "props": {
                 "path": "activities"
+              }
+            },
+            "Nfts": {
+              "enabled": true,
+              "props": {
+                "path": "parsells"
               }
             }
           }
         }
       },
       "NFT": {
-        "enabled": true,
+        "enabled": false,
         "props": {
           "path": "/asset/:collectionAddress/:tokenId"
         }

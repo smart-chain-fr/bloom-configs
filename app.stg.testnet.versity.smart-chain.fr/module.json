@@ -1,5 +1,5 @@
 {
-  "app": "erable",
+  "app": "versity",
   "theme": {
     "colors": {
       "primary": "string",
@@ -9,6 +9,14 @@
   "modules": {
     "Theme": {
       "enabled": false
+    },
+    "graphicalChart": {
+      "errorButtonRed": {
+        "enabled": false
+      },
+      "errorButtonPrimary": {
+        "enabled": true
+      }
     },
     "Marketplace": {
       "primary": {
@@ -124,7 +132,25 @@
       "enabled": true,
       "props": {
         "Navigation": {
-          "enabled": true
+          "enabled": true, 
+          "props": {
+            "Profile": {
+              "enabled": true
+            }, 
+            "History": {
+              "enabled": true
+            },
+            "Settings": {
+              "enabled": false, 
+              "path": "/settings"
+            },
+            "MyListings": {
+              "enabled": true
+            }, 
+            "MyOrders": {
+              "enabled": true
+            }
+          }
         },
         "Buttons": {
           "enabled": false
@@ -140,7 +166,19 @@
           "enabled": true
         },
         "CreateAuction": {
+          "enabled": false
+        }, 
+        "hasAuctionAndFixedPricePurchase": {
           "enabled": true
+        },
+        "hasCurrencySymbolDisplayed": {
+          "enabled": true
+        }, 
+        "RegisterModalEmailAtTheTop": {
+          "enabled": true
+        }, 
+        "RegisterModalEmailAtTheBottom": {
+          "enabled": false
         }
       }
     },
@@ -381,16 +419,16 @@
         "props": {
           "path": "/collection/:collectionAddress",
           "pages": {
-            "Nfts": {
-              "enabled": true,
-              "props": {
-                "path": "parsells"
-              }
-            },
             "Activities": {
               "enabled": true,
               "props": {
                 "path": "activities"
+              }
+            },
+            "Nfts": {
+              "enabled": true,
+              "props": {
+                "path": "parsells"
               }
             }
           }

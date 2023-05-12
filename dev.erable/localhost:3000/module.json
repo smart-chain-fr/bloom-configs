@@ -1,0 +1,451 @@
+{
+  "app": "erable",
+  "theme": {
+    "colors": {
+      "primary": "string",
+      "secondary": "string"
+    }
+  },
+  "modules": {
+    "Theme": {
+      "enabled": false
+    },
+    "graphicalChart": {
+      "errorButtonRed": {
+        "enabled": true
+      },
+      "errorButtonPrimary": {
+        "enabled": false
+      }
+    },
+    "Marketplace": {
+      "primary": {
+        "enabled": true
+      },
+      "secondary": {
+        "enabled": true
+      }
+    },
+    "NFT": {
+      "enabled": true,
+      "props": {
+        "hover": {
+          "enabled": true
+        }
+      }
+    },
+    "Auctions": {
+      "enabled": false
+    },
+    "PaymentCreditCard": {
+      "enabled": false
+    },
+    "PaymentCrypto": {
+      "enabled": true
+    },
+    "Header": {
+      "enabled": true,
+      "props": {
+        "Logo": {
+          "enabled": true
+        },
+        "Launchpad": {
+          "enabled": false
+        },
+        "Market": {
+          "enabled": true
+        },
+        "Utilities": {
+          "enabled": true
+        },
+        "Profile": {
+          "enabled": true
+        },
+        "Settings": {
+          "enabled": true
+        },
+        "Ressources": {
+          "enabled": true
+        },
+        "SearchBar": {
+          "enabled": true
+        },
+        "ThemeMode": {
+          "enabled": false
+        },
+        "SignIn": {
+          "enabled": true
+        },
+        "Notification": {
+          "enabled": false
+        }
+      }
+    },
+    "Footer": {
+      "enabled": true,
+      "props": {
+        "Logo": {
+          "enabled": true
+        },
+        "Linkedin": {
+          "enabled": true
+        },
+        "Facebook": {
+          "enabled": true
+        },
+        "Tiktok": {
+          "enabled": true
+        },
+        "Telegram": {
+          "enabled": true
+        },
+        "Instagram": {
+          "enabled": true
+        },
+        "Twitter": {
+          "enabled": true
+        },
+        "Discord": {
+          "enabled": true
+        },
+        "Youtube": {
+          "enabled": true
+        },
+        "Medium": {
+          "enabled": true
+        },
+        "ExternalWebsite": {
+          "enabled": true
+        },
+        "Newsletter": {
+          "enabled": true
+        },
+        "PrivacyPolicy": {
+          "enabled": true
+        },
+        "TermsOfService": {
+          "enabled": true
+        }
+      }
+    },
+    "UserMenu": {
+      "enabled": true,
+      "props": {
+        "Navigation": {
+          "enabled": true,
+          "props": {
+            "Profile": {
+              "enabled": true
+            },
+            "History": {
+              "enabled": false
+            },
+            "Settings": {
+              "enabled": true,
+              "path": "/settings"
+            },
+            "MyListings": {
+              "enabled": true
+            },
+            "MyOrders": {
+              "enabled": true
+            }
+          }
+        },
+        "Buttons": {
+          "enabled": false
+        },
+        "Wallet": {
+          "enabled": true
+        }
+      }
+    },
+    "Modals": {
+      "props": {
+        "AddFunds": {
+          "enabled": true
+        },
+        "CreateAuction": {
+          "enabled": true
+        }, 
+        "hasAuctionAndFixedPricePurchase": {
+          "enabled": false
+        }, 
+        "hasCurrencySymbolDisplayed": {
+          "enabled": false
+        }, 
+        "RegisterModalEmailAtTheTop": {
+          "enabled": false
+        }, 
+        "RegisterModalEmailAtTheBottom": {
+          "enabled": true
+        }
+      }
+    },
+    "pages": {
+      "Home": {
+        "enabled": true,
+        "props": {
+          "path": { "pathname": "/", "hash": "#" }
+        }
+      },
+      "Launchpad": {
+        "enabled": false,
+        "props": {
+          "path": "/launchpad"
+        }
+      },
+      "Launches": {
+        "enabled": true,
+        "props": {
+          "path": "/launches",
+          "pages": {
+            "InMint": {
+              "enabled": true,
+              "props": {
+                "path": "in-mint"
+              }
+            },
+            "SoldOut": {
+              "enabled": true,
+              "props": {
+                "path": "sold-out"
+              }
+            }
+          },
+          "CategoryChips": {
+            "enabled": false
+          }
+        }
+      },
+      "Market": {
+        "enabled": true,
+        "props": {
+          "path": "/market",
+          "pages": {
+            "All": {
+              "enabled": true,
+              "props": {
+                "path": "all"
+              }
+            },
+            "Collections": {
+              "enabled": true,
+              "props": {
+                "path": "collections"
+              }
+            },
+            "NFTs": {
+              "enabled": true,
+              "props": {
+                "path": "nfts"
+              }
+            }
+          },
+          "BannerCarrousel": {
+            "enabled": true
+          },
+          "Category": {
+            "enabled": false
+          }
+        }
+      },
+      "Utilities": {
+        "enabled": true,
+        "props": {
+          "path": "/utilities"
+        }
+      },
+      "Profile": {
+        "enabled": true,
+        "props": {
+          "path": "/profile/:userAddress",
+          "pages": {
+            "Activities": {
+              "enabled": true,
+              "props": {
+                "path": "activities",
+                "Menu": {
+                  "enabled": true,
+                  "options": {
+                    "Orders": {
+                      "enabled": true,
+                      "props": {
+                        "Offers": {
+                          "enabled": true,
+                          "props": {
+                            "path": "orders/offers"
+                          }
+                        },
+                        "Auctions": {
+                          "enabled": false,
+                          "props": {
+                            "path": "orders/auctions"
+                          }
+                        }
+                      }
+                    },
+                    "Listings": {
+                      "enabled": true,
+                      "props": {
+                        "FixedPrice": {
+                          "enabled": true,
+                          "props": {
+                            "path": "listings/fixed-price"
+                          }
+                        },
+                        "Auctions": {
+                          "enabled": false,
+                          "props": {
+                            "path": "listings/auctions"
+                          }
+                        }
+                      }
+                    },
+                    "Other": {
+                      "enabled": true,
+                      "props": {
+                        "History": {
+                          "enabled": true,
+                          "props": {
+                            "path": "other/history"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "Nfts": {
+              "enabled": true,
+              "props": {
+                "path": "parsells"
+              }
+            }
+          }
+        }
+      },
+      "Settings": {
+        "enabled": true,
+        "props": {
+          "path": "/settings",
+          "pages": {
+            "General": {
+              "enabled": true,
+              "props": {
+                "path": "/settings"
+              }
+            },
+            "SocialMedia": {
+              "enabled": true,
+              "props": {
+                "path": "/settings/social-media"
+              }
+            }
+          }
+        }
+      },
+      "Components": {
+        "enabled": true,
+        "props": {
+          "path": "/components"
+        },
+        "pages": {
+          "Buttons": {
+            "enabled": true,
+            "props": {
+              "path": "/components/buttons"
+            }
+          },
+          "Shadows": {
+            "enabled": true,
+            "props": {
+              "path": "/components/shadows"
+            }
+          },
+          "Typographies": {
+            "enabled": true,
+            "props": {
+              "path": "/components/typographies"
+            }
+          },
+          "Inputs": {
+            "enabled": true,
+            "props": {
+              "path": "/components/inputs"
+            }
+          },
+          "ProgressBars": {
+            "enabled": false,
+            "props": {
+              "path": "/components/progressbars"
+            }
+          },
+          "Tags": {
+            "enabled": true,
+            "props": {
+              "path": "/components/tags"
+            }
+          },
+          "Modals": {
+            "enabled": true,
+            "props": {
+              "path": "/components/modals"
+            }
+          },
+          "Tabs": {
+            "enabled": true,
+            "props": {
+              "path": "/components/tabs"
+            }
+          },
+          "NFTComponent": {
+            "enabled": true,
+            "props": {
+              "path": "/components/NFTComponent"
+            }
+          },
+          "Other": {
+            "enabled": true,
+            "props": {
+              "path": "/components/other"
+            }
+          }
+        }
+      },
+      "Collection": {
+        "enabled": true,
+        "props": {
+          "path": "/collection/:collectionAddress",
+          "pages": {
+            "Nfts": {
+              "enabled": true,
+              "props": {
+                "path": "parsells"
+              }
+            },
+            "Activities": {
+              "enabled": true,
+              "props": {
+                "path": "activities"
+              }
+            }
+          }
+        }
+      },
+      "NFT": {
+        "enabled": true,
+        "props": {
+          "path": "/asset/:collectionAddress/:tokenId"
+        }
+      }
+    },
+    "ReceiveCrypto": {
+      "enabled": true
+    },
+    "SendCrypto": {
+      "enabled": true
+    }
+  }
+}

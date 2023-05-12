@@ -1,19 +1,19 @@
 {
-  "short_name": "Erable",
-  "name": "Erable",
+  "short_name": "Versity",
+  "name": "Versity",
   "icons": [
     {
-      "src": "logos/favicon.svg",
+      "src": "assets/images/logos/favicon.svg",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logos/logo192.png",
+      "src": "assets/images/logos/logo192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logos/logo512.png",
+      "src": "assets/images/logos/logo512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
