@@ -61,6 +61,7 @@
   --color-error-700: #b91c1c;
   --color-error-800: #991b1b;
   --color-error-900: #7f1d1d;
+
   --color-generic-white: #ffffff;
   --color-generic-black: #000000;
   --color-error-black: #000000;
@@ -91,7 +92,7 @@
   --border-radius-nft: 8px 8px 0 0;
   --border-radius-nft-container: 8px 8px 8px 8px;
   --nft-info-color1: var(--color-neutral-900);
-  --box-shadow-logo: none;
+  --logo-hover-color: none;
 
   --box-shadow-11: 0 6px 12px rgba(255, 255, 255, 0.11);
   --box-shadow-15: 0 6px 12px rgba(255, 255, 255, 0.15);
@@ -99,7 +100,6 @@
 
   --color-button-outline-neutral-700: var(--color-generic-white);
   --color-button-outline-primary-900: var(--color-generic-white);
-
   --color-button-text-success: var(--color-success-500);
   --color-button-text-success-hover: var(--color-success-700);
   --color-button-text-success-active: var(--color-success-700);
@@ -131,11 +131,9 @@
 
   --select-filter-background: var(--color-neutral-50);
   --chip-with-number-background-color-selected: var(--color-secondary-500);
-  --chip-number-background-color-selected: var(--color-secondary-500);
-  --chip-number-circle-background: var(--color-secondary-400);
-
-  --selected-text-chip-color: var(--color-neutral-900);
   --chip-with-number-border: 1px solid var(--color-secondary-500);
+  --chip-number-circle-background: var(--color-secondary-400);
+  --selected-text-chip-color: var(--color-neutral-900);
   --not-selected-text-chip-color: var(--color-generic-white);
 
   --attributes-background-color: var(--color-neutral-100);
@@ -159,6 +157,7 @@
   --toast-background-color: var(--color-neutral-100);
   --toast-border-radius: 5px;
   --toast-loader-background: var(--color-neutral-500);
+
   --loader-big-part-background: var(--color-neutral-100);
   --loader-small-part-background: var(--color-primary-500);
 
@@ -184,15 +183,15 @@
 }
 
 [theme-mode="dark"] {
-  --color-generic-background: #000000;
-  --color-primary-50: #f5f5ff;
-  --color-primary-100: #e1e1fe;
-  --color-primary-200: #c3c4fe;
-  --color-primary-300: #9b9dfd;
-  --color-primary-400: #7375fd;
-  --color-primary-500: #2a4aff;
-  --color-primary-600: #0f2fe1;
-  --color-primary-700: #001bb2;
-  --color-primary-800: #0306ba;
-  --color-primary-900: #02058d;
+  --color-generic-background: var(--color-generic-black);
+  --color-primary-50: var(--color-primary-50);
+  --color-primary-100: var(--color-primary-100);
+  --color-primary-200: var(--color-primary-200);
+  --color-primary-300: var(--color-primary-300);
+  --color-primary-400: var(--color-primary-400);
+  --color-primary-500: var(--color-primary-500);
+  --color-primary-600: var(--color-primary-600);
+  --color-primary-700: var(--color-primary-700);
+  --color-primary-800: var(--color-primary-800);
+  --color-primary-900: var(--color-primary-900);
 }

@@ -1,15 +1,6 @@
 @import url("https://use.typekit.net/col6oad.css");
 
-
 :root {
-  --font-weight-regular: 400;
-  --font-weight-medium: 500;
-  --font-weight-semibold: 600;
-  --font-weight-bold: 700;
-  --font-weight-extrabold: 900;
-  --font-family-primary: acumin-pro;
-  --font-family-secondary: acumin-pro;
-  --border-radius-button: 32px;
   --color-neutral-50: #030408;
   --color-neutral-100: #0e0e23;
   --color-neutral-200: #313949;
@@ -70,22 +61,137 @@
   --color-error-700: #b91c1c;
   --color-error-800: #991b1b;
   --color-error-900: #7f1d1d;
+
   --color-generic-white: #ffffff;
   --color-generic-black: #000000;
   --color-error-black: #000000;
   --color-generic-background: #ffffff;
+
+  --color-shadow1: rgba(255, 255, 255, 0.15);
+  --color-shadow2: rgba(255, 255, 255, 0.11);
+  --color-shadow3: rgba(255, 255, 255, 0.05);
+  --color-shadow4: #dcccff;
+
+  --font-family-primary: "acumin-pro";
+  --font-family-secondary: "acumin-pro";
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 900;
+
+  --border-radius-button: 32px;
+  --border-radius-searchbar: 8px;
+  --border: 1px solid var(--color-neutral-300);
+  --border-button: "none";
+  --color-shadow: "none";
+  --shadow: "none";
+
+  --nft-info: rgba(17, 24, 39, 0.4);
+  --background-menu: var(--color-neutral-50);
+  --border-radius-nft: 8px 8px 0 0;
+  --border-radius-nft-container: 8px 8px 8px 8px;
+  --nft-info-color1: var(--color-neutral-900);
+  --logo-hover-color: none;
+
+  --box-shadow-11: 0 6px 12px rgba(255, 255, 255, 0.11);
+  --box-shadow-15: 0 6px 12px rgba(255, 255, 255, 0.15);
+  --box-shadow-4: 0 6px 12px rgba(255, 255, 255, 0.04);
+
+  --color-button-outline-neutral-700: var(--color-generic-white);
+  --color-button-outline-primary-900: var(--color-generic-white);
+  --color-button-text-success: var(--color-success-500);
+  --color-button-text-success-hover: var(--color-success-700);
+  --color-button-text-success-active: var(--color-success-700);
+  --color-button-text-success-disabled: var(--color-secondary-300);
+
+  --contained-buttons-background: var(--color-primary-500);
+  --contained-buttons-background-hover: var(--color-primary-600);
+  --contained-buttons-background-active: var(--color-primary-700);
+  --contained-buttons-background-disabled: var(--color-primary-200);
+  --contained-buttons-color-disabled: var(--color-neutral-200);
+  --color-contained-button: var(--color-neutral-900);
+  --stroke-modify-button: var(--color-generic-white);
+
+  --border-outlined-primary: var(--color-primary-800);
+  --outlined-primary-background: var(--color-generic-background);
+  --outlined-primary-background-hover: var(--color-neutral-100);
+  --outlined-primary-background-active: var(--color-neutral-100);
+  --outlined-primary-background-disabled: var(--color-warning-50);
+
+  --background-modals: var(--color-neutral-50);
+  --searchbar-focus: var(--color-neutral-500);
+
+  --tag-background-color: var(--color-neutral-900);
+  --tag-background-color-hover: var(--color-neutral-800);
+  --tag-background-color-active: var(--color-neutral-700);
+
+  --filter-tags-background-color: var(--color-secondary-500);
+  --filter-tags-font-weight: 400;
+
+  --select-filter-background: var(--color-neutral-50);
+  --chip-with-number-background-color-selected: var(--color-secondary-500);
+  --chip-with-number-border: 1px solid var(--color-secondary-500);
+  --chip-number-circle-background: var(--color-secondary-400);
+  --selected-text-chip-color: var(--color-neutral-900);
+  --not-selected-text-chip-color: var(--color-generic-white);
+
+  --attributes-background-color: var(--color-neutral-100);
+
+  --color-primary: var(--color-primary-500);
+  --last-child-attribute: var(--color-neutral-900);
+
+  --linear-gradient: linear-gradient(
+    90deg,
+    var(--color-secondary-300) 0%,
+    var(--color-secondary-900) 100%
+  );
+
+  --user-button-color: var(--color-neutral-400);
+  --border-error-button: 1px solid var(--color-error-500);
+  --border-error-button-hover: var(--color-error-600);
+  --error-button-background: inherit;
+  --error-button-background-hover: inherit;
+  --error-button-background-active: inherit;
+
+  --toast-background-color: var(--color-neutral-100);
+  --toast-border-radius: 5px;
+  --toast-loader-background: var(--color-neutral-500);
+
+  --loader-big-part-background: var(--color-neutral-100);
+  --loader-small-part-background: var(--color-primary-500);
+
+  --border-radius-select: 8px 0 0 8px;
+  --border-radius-amount-input-field: 0 8px 8px 0;
+  --background-input-field-material: var(--color-neutral-50);
+
+  --color-text-primary: var(--color-secondary-900);
+  --color-text-primary-hover: var(--color-secondary-800);
+  --color-text-primary-active: var(--color-secondary-700);
+  --color-text-primary-disabled: var(--color-secondary-200);
+
+  --alert-message-default-background: var(--color-neutral-100);
+  --alert-message-default-color: var(--color-neutral-700);
+
+  --border-color-outlined-error: var(--color-error-300);
+  --tag-main-color: var(--color-neutral-50);
+  --tag-color-live-mint: var(--color-neutral-50);
+  --tag-live-mint-background: var(--color-primary-500);
+  --tag-sale-background: var(--color-neutral-200);
+  --tag-eligible-background: var(--color-success-900);
+  --tag-eligible-color: var(--color-success-900);
 }
 
 [theme-mode="dark"] {
-  --color-generic-background: #000000;
-  --color-primary-50: #f5f5ff;
-  --color-primary-100: #e1e1fe;
-  --color-primary-200: #c3c4fe;
-  --color-primary-300: #9b9dfd;
-  --color-primary-400: #7375fd;
-  --color-primary-500: #2a4aff;
-  --color-primary-600: #0f2fe1;
-  --color-primary-700: #001bb2;
-  --color-primary-800: #0306ba;
-  --color-primary-900: #02058d;
+  --color-generic-background: var(--color-generic-black);
+  --color-primary-50: var(--color-primary-50);
+  --color-primary-100: var(--color-primary-100);
+  --color-primary-200: var(--color-primary-200);
+  --color-primary-300: var(--color-primary-300);
+  --color-primary-400: var(--color-primary-400);
+  --color-primary-500: var(--color-primary-500);
+  --color-primary-600: var(--color-primary-600);
+  --color-primary-700: var(--color-primary-700);
+  --color-primary-800: var(--color-primary-800);
+  --color-primary-900: var(--color-primary-900);
 }

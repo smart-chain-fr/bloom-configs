@@ -1,55 +1,46 @@
 @import url("https://use.typekit.net/col6oad.css");
 
-
 :root {
-  --font-weight-regular: 400;
-  --font-weight-medium: 500;
-  --font-weight-semibold: 600;
-  --font-weight-bold: 700;
-  --font-weight-extrabold: 900;
-  --font-family-primary: acumin-pro;
-  --font-family-secondary: acumin-pro;
-  --border-radius-button: 32px;
-  --color-neutral-50: #030408;
-  --color-neutral-100: #0e0e23;
-  --color-neutral-200: #313949;
-  --color-neutral-300: #434f63;
-  --color-neutral-400: #55647d;
-  --color-neutral-500: #7083a3;
-  --color-neutral-600: #99a7be;
-  --color-neutral-700: #b5bfd0;
-  --color-neutral-800: #d2d8e2;
-  --color-neutral-900: #f9fafb;
-  --color-primary-50: #f5f5ff;
-  --color-primary-100: #e1e1fe;
-  --color-primary-200: #c3c4fe;
-  --color-primary-300: #9b9dfd;
-  --color-primary-400: #7375fd;
-  --color-primary-500: #2a4aff;
-  --color-primary-600: #0f2fe1;
-  --color-primary-700: #001bb2;
-  --color-primary-800: #0306ba;
-  --color-primary-900: #02058d;
-  --color-secondary-50: #f3e7fe;
-  --color-secondary-100: #dfc5fd;
-  --color-secondary-200: #ca9dfd;
-  --color-secondary-300: #b371fe;
-  --color-secondary-400: #6d01bc;
-  --color-secondary-500: #3f036b;
-  --color-secondary-600: #810ef3;
-  --color-secondary-700: #005eba;
-  --color-secondary-800: #006ad2;
-  --color-secondary-900: #0181ff;
-  --color-success-50: #f0fdf4;
-  --color-success-100: #dcfce7;
-  --color-success-200: #bbf7d0;
-  --color-success-300: #86efac;
-  --color-success-400: #4ade80;
-  --color-success-500: #22c55e;
-  --color-success-600: #16a34a;
-  --color-success-700: #15803d;
-  --color-success-800: #0aff96;
-  --color-success-900: #042718;
+  --color-neutral-50: #fafafa;
+  --color-neutral-100: #f4f4f4;
+  --color-neutral-200: #ececec;
+  --color-neutral-300: #dedede;
+  --color-neutral-400: #bbbbbb;
+  --color-neutral-500: #9b9b9b;
+  --color-neutral-600: #727272;
+  --color-neutral-700: #5f5f5f;
+  --color-neutral-800: #404040;
+  --color-neutral-900: #1f1f1f;
+  --color-primary-50: #e6fef3;
+  --color-primary-100: #deffdc;
+  --color-primary-200: #98f9cf;
+  --color-primary-300: #64f6bb;
+  --color-primary-400: #2ff0ab;
+  --color-primary-500: #00ea9b;
+  --color-primary-600: #00d98e;
+  --color-primary-700: #00c47e;
+  --color-primary-800: #00b271;
+  --color-primary-900: #009059;
+  --color-secondary-50: #fffee8;
+  --color-secondary-100: #fdfbc5;
+  --color-secondary-200: #fffaa0;
+  --color-secondary-300: #fdf678;
+  --color-secondary-400: #faf158;
+  --color-secondary-500: #f7ec38;
+  --color-secondary-600: #fee13a;
+  --color-secondary-700: #fdc930;
+  --color-secondary-800: #fcb126;
+  --color-secondary-900: #f98814;
+  --color-success-50: #f1fff1;
+  --color-success-100: #deffdc;
+  --color-success-200: #caffc7;
+  --color-success-300: #b5feb0;
+  --color-success-400: #a5fc9e;
+  --color-success-500: #97f98b;
+  --color-success-600: #8be77f;
+  --color-success-700: #7dd272;
+  --color-success-800: #72c067;
+  --color-success-900: #5d9e53;
   --color-warning-50: #fffbeb;
   --color-warning-100: #fef3c7;
   --color-warning-200: #fde68a;
@@ -70,22 +61,137 @@
   --color-error-700: #b91c1c;
   --color-error-800: #991b1b;
   --color-error-900: #7f1d1d;
+
   --color-generic-white: #ffffff;
   --color-generic-black: #000000;
   --color-error-black: #000000;
-  --color-generic-background: #ffffff;
+  --color-generic-background: var(----color-generic-white);
+
+  --color-shadow1: none;
+  --color-shadow2: none;
+  --color-shadow3: none;
+  --color-shadow4: none;
+
+  --font-family-primary: "Friends";
+  --font-family-secondary: "Neue Haas Grotesk Display Pro";
+  --font-weight-regular: 400;
+  --font-weight-medium: 600;
+  --font-weight-semibold: 700;
+  --font-weight-bold: 800;
+  --font-weight-extrabold: 900;
+
+  --border-radius-button: "none";
+  --border-radius-searchbar: "none";
+  --border: 1.5px solid var(--color-neutral-900);
+  --border-button: var(--border);
+  --color-shadow: #dcccff;
+  --shadow: 3px 3px var(--color-shadow);
+
+  --nft-info: var(--color-neutral-50);
+  --background-menu: var(--color-generic-background);
+  --border-radius-nft: "none";
+  --border-radius-nft-container: "none";
+  --nft-info-color1: var(--color-neutral-500);
+  --logo-hover-color: var(--color-neutral-300);
+
+  --box-shadow-11: 0 6px 12px rgba(0, 0, 0, 0.11);
+  --box-shadow-15: 0 6px 12px rgba(0, 0, 0, 0.15);
+  --box-shadow-4: 0 6px 12px rgba(0, 0, 0, 0.04);
+
+  --color-button-outline-neutral-700: var(--color-neutral-700);
+  --color-button-outline-primary-900: var(--color-neutral-900);
+  --color-button-text-success: var(--color-primary-700);
+  --color-button-text-success-hover: var(--color-primary-800);
+  --color-button-text-success-active: var(--color-primary-900);
+  --color-button-text-success-disabled: var(--color-primary-50);
+
+  --contained-buttons-background: var(--color-primary-200);
+  --contained-buttons-background-hover: var(--color-primary-100);
+  --contained-buttons-background-active: var(--color-primary-200);
+  --contained-buttons-background-disabled: var(--color-primary-50);
+  --contained-buttons-color-disabled: var(--color-neutral-300);
+  --stroke-modify-button: var(--color-neutral-700);
+  --color-contained-button: var(--color-neutral-700);
+
+  --border-outlined-primary: var(--color-neutral-900);
+  --outlined-primary-background: var(--color-secondary-200);
+  --outlined-primary-background-hover: var(--color-secondary-100);
+  --outlined-primary-background-active: var(--color-secondary-200);
+  --outlined-primary-background-disabled: var(--color-warning-50);
+
+  --background-modals: var(--color-generic-background);
+  --searchbar-focus: var(--border);
+
+  --tag-background-color: var(--color-generic-background);
+  --tag-background-color-hover: var(--color-neutral-100);
+  --tag-background-color-active: var(--color-neutral-300);
+
+  --filter-tags-background-color: var(--color-generic-background);
+  --filter-tags-font-weight: 500;
+
+  --select-filter-background: var(--color-generic-background);
+  --chip-with-number-background-color-selected: var(--color-neutral-200);
+  --chip-with-number-border: 1.5px solid var(--color-neutral-300);
+  --chip-number-circle-background: var(--color-neutral-50);
+  --selected-text-chip-color: var(--color-neutral-900);
+  --not-selected-text-chip-color: var(--color-neutral-500);
+
+  --attributes-background-color: var(--color-generic-background);
+
+  --color-primary: var(--color-primary-700);
+  --last-child-attribute: var(--color-neutral-500);
+
+  --linear-gradient: linear-gradient(
+    90deg,
+    var(--color-primary-500) 0%,
+    var(--color-primary-200) 100%
+  );
+
+  --user-button-color: var(--color-neutral-600);
+  --border-error-button: var(--border);
+  --border-error-button-hover: var(--border);
+  --error-button-background: var(--generic-background);
+  --error-button-background-hover: var(--color-error-50);
+  --error-button-background-active: var(--color-error-100);
+
+  --toast-background-color: var(--color-generic-background);
+  --toast-border-radius: 16px;
+  --toast-loader-background: none;
+
+  --loader-big-part-background: var(--color-generic-background);
+  --loader-small-part-background: var(--color-primary-500);
+
+  --border-radius-select: 0;
+  --border-radius-amount-input-field: 0;
+  --background-input-field-material: var(--color-generic-background);
+
+  --color-text-primary: var(--color-neutral-900);
+  --color-text-primary-hover: var(--color-neutral-900);
+  --color-text-primary-active: var(--color-neutral-900);
+  --color-text-primary-disabled: var(--ccolor-neutral-900);
+
+  --alert-message-default-background: var(--color-primary-50);
+  --alert-message-default-color: var(--color-primary-500);
+
+  --border-color-outlined-error: var(--color-neutral-300);
+  --tag-main-color: var(--color-neutral-900);
+  --tag-color-live-mint: var(--color-primary-900);
+  --tag-live-mint-background: var(--color-primary-200);
+  --tag-sale-background: var(--color-neutral-50);
+  --tag-eligible-background: var(--color-shadow);
+  --tag-eligible-color: var(--color-neutral-900);
 }
 
 [theme-mode="dark"] {
-  --color-generic-background: #000000;
-  --color-primary-50: #f5f5ff;
-  --color-primary-100: #e1e1fe;
-  --color-primary-200: #c3c4fe;
-  --color-primary-300: #9b9dfd;
-  --color-primary-400: #7375fd;
-  --color-primary-500: #2a4aff;
-  --color-primary-600: #0f2fe1;
-  --color-primary-700: #001bb2;
-  --color-primary-800: #0306ba;
-  --color-primary-900: #02058d;
+  --color-generic-background: var(--color-generic-black);
+  --color-primary-50: var(--color-primary-50);
+  --color-primary-100: var(--color-primary-100);
+  --color-primary-200: var(--color-primary-200);
+  --color-primary-300: var(--color-primary-300);
+  --color-primary-400: var(--color-primary-400);
+  --color-primary-500: var(--color-primary-500);
+  --color-primary-600: var(--color-primary-600);
+  --color-primary-700: var(--color-primary-700);
+  --color-primary-800: var(--color-primary-800);
+  --color-primary-900: var(--color-primary-900);
 }
