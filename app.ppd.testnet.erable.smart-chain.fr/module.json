@@ -118,7 +118,15 @@
           "enabled": true
         },
         "Newsletter": {
-          "enabled": false
+          "enabled": true,
+          "props": {
+            "NewsletterLink": {
+              "enabled": false
+            },
+            "NewsletterInput": {
+              "enabled": true
+            }
+          }
         },
         "PrivacyPolicy": {
           "enabled": true
