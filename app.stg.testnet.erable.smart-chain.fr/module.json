@@ -149,6 +149,12 @@
             }, 
             "MyOrders": {
               "enabled": true
+            }, 
+            "Launchpad": {
+              "enabled": false
+            }, 
+            "Market": {
+              "enabled": false
             }
           }
         },
