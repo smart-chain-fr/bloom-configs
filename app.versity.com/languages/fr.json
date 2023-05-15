@@ -39,7 +39,7 @@
     "nav_links": {
       "launches": "Launches",
       "market": "Market",
-      "my_parsells": "Profile",
+      "my_parsells": "My Parsells",
       "history": "History",
       "listings": "My Listings",
       "orders": "My Orders"
@@ -103,8 +103,8 @@
       "you": "You",
       "subPages": {
         "nfts": {
-          "my_title": "My NFT",
-          "title": "NFT"
+          "my_title": "My Parsells",
+          "title": "Parsells"
         },
         "activities": {
           "title": "Activities",
@@ -120,7 +120,7 @@
                 "fixed_price": "Fixed price",
                 "auctions": "Auctions"
               },
-              "history": "History",
+              "history": "History", 
               "settings": "Settings"
             }
           },
@@ -295,7 +295,7 @@
       "current": "Current bid",
       "reserve": "Reserve price",
       "add_funds": "Add funds",
-      "approved_payment": "Transaction approved",
+      "approved_payment": "Approved payment",
       "info_1": "You need funds in {{tokenName}} in order to participate in this auction. You can purchase {{tokenName}} by credit card by clicking in  ",
       "info_2": "Bids placed during an auction cannot be withdrawn. By placing a bid you have indicated that you agree to the ",
       "info_3": "To finalize the purchase, you will require sufficient funds along with some natif tokens to cover the gas fees. "
@@ -478,7 +478,7 @@
       "form": {
         "email": "Email",
         "notification_email": "Notification email",
-        "account_name": "Username",
+        "account_name": "Account name",
         "username": "Username",
         "first_name": "First name",
         "last_name": "Last name",
