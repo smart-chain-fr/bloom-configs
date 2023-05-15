@@ -118,7 +118,15 @@
           "enabled": true
         },
         "Newsletter": {
-          "enabled": false
+          "enabled": true,
+          "props": {
+            "NewsletterLink": {
+              "enabled": false
+            },
+            "NewsletterInput": {
+              "enabled": true
+            }
+          }
         },
         "PrivacyPolicy": {
           "enabled": true
@@ -132,27 +140,27 @@
       "enabled": true,
       "props": {
         "Navigation": {
-          "enabled": true, 
+          "enabled": true,
           "props": {
             "Profile": {
               "enabled": true
-            }, 
+            },
             "History": {
               "enabled": true
             },
             "Settings": {
-              "enabled": false, 
+              "enabled": false,
               "path": "/settings"
             },
             "MyListings": {
               "enabled": true
-            }, 
+            },
             "MyOrders": {
               "enabled": true
-            }, 
+            },
             "Launchpad": {
               "enabled": true
-            }, 
+            },
             "Market": {
               "enabled": true
             }
@@ -173,16 +181,16 @@
         },
         "CreateAuction": {
           "enabled": false
-        }, 
+        },
         "hasAuctionAndFixedPricePurchase": {
           "enabled": true
         },
         "hasCurrencySymbolDisplayed": {
           "enabled": true
-        }, 
+        },
         "RegisterModalEmailAtTheTop": {
           "enabled": true
-        }, 
+        },
         "RegisterModalEmailAtTheBottom": {
           "enabled": false
         }

@@ -118,7 +118,15 @@
           "enabled": true
         },
         "Newsletter": {
-          "enabled": true
+          "enabled": true,
+          "props": {
+            "NewsletterLink": {
+              "enabled": false
+            },
+            "NewsletterInput": {
+              "enabled": true
+            }
+          }
         },
         "PrivacyPolicy": {
           "enabled": true
@@ -149,10 +157,10 @@
             },
             "MyOrders": {
               "enabled": true
-            }, 
+            },
             "Launchpad": {
               "enabled": false
-            }, 
+            },
             "Market": {
               "enabled": false
             }
@@ -173,16 +181,16 @@
         },
         "CreateAuction": {
           "enabled": true
-        }, 
+        },
         "hasAuctionAndFixedPricePurchase": {
           "enabled": false
-        }, 
+        },
         "hasCurrencySymbolDisplayed": {
           "enabled": false
-        }, 
+        },
         "RegisterModalEmailAtTheTop": {
           "enabled": false
-        }, 
+        },
         "RegisterModalEmailAtTheBottom": {
           "enabled": true
         }

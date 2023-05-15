@@ -118,7 +118,15 @@
           "enabled": true
         },
         "Newsletter": {
-          "enabled": false
+          "enabled": true,
+          "props": {
+            "NewsletterLink": {
+              "enabled": false
+            },
+            "NewsletterInput": {
+              "enabled": true
+            }
+          }
         },
         "PrivacyPolicy": {
           "enabled": true
@@ -152,7 +160,7 @@
             },
             "Launchpad": {
               "enabled": true
-            }, 
+            },
             "Market": {
               "enabled": true
             }
@@ -179,10 +187,10 @@
         },
         "hasCurrencySymbolDisplayed": {
           "enabled": true
-        }, 
+        },
         "RegisterModalEmailAtTheTop": {
           "enabled": true
-        }, 
+        },
         "RegisterModalEmailAtTheBottom": {
           "enabled": false
         }
