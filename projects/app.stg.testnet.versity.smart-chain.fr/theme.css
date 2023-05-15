@@ -114,10 +114,10 @@
   --stroke-modify-button: var(--color-generic-white);
 
   --border-outlined-primary: var(--color-primary-800);
-  --outlined-primary-background: var(--color-generic-background);
+  --outlined-primary-background: transparent;
   --outlined-primary-background-hover: var(--color-neutral-100);
   --outlined-primary-background-active: var(--color-neutral-100);
-  --outlined-primary-background-disabled: var(--color-warning-50);
+  --outlined-primary-background-disabled: transparent;
 
   --background-modals: var(--color-neutral-50);
   --searchbar-focus: var(--color-neutral-500);
