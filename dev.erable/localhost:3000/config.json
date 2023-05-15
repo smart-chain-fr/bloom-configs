@@ -16,7 +16,7 @@
     "ethereum": {
       "infuraId": "1e53a3471c1d44db95ffa97cb16b3d85",
       "rpc": "https://rpc.ankr.com/polygon_mumbai",
-      "network": "matic",
+      "network": "mumbai",
       "name": "Polygon Testnet",
       "blockExplorer": "https://mumbai.polygonscan.com/",
       "chainId": 80001,

@@ -16,7 +16,7 @@
     "ethereum": {
       "infuraId": "1e53a3471c1d44db95ffa97cb16b3d85",
       "rpc": "https://hidden-hidden-wind.matic-testnet.quiknode.pro/0519c248a733a433c1c85c4ddbfa6c37228dbcd0/",
-      "network": "matic",
+      "network": "mumbai",
       "name": "Polygon Testnet",
       "blockExplorer": "https://mumbai.polygonscan.com/",
       "chainId": 80001,
