@@ -65,7 +65,7 @@
   --color-generic-white: #ffffff;
   --color-generic-black: #000000;
   --color-error-black: #000000;
-  --color-generic-background: var(----color-generic-white);
+  --color-generic-background: var(--color-generic-white);
 
   /* FONTS */
   --font-family-primary: "Friends";
