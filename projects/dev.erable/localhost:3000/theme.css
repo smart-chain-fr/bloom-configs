@@ -111,7 +111,7 @@
   --background-menu: var(--color-generic-background);
 
   /* LOGO */
-  --logo-hover-color: var(--color-neutral-300);
+  --logo-hover-color: var(--color-secondary-300);
 
   /* NFT CARDS */
   --nft-info: var(--color-neutral-50);
