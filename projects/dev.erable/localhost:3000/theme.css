@@ -157,13 +157,13 @@
   --outlined-primary-background-disabled: var(--color-warning-50);
   --border-color-outlined-error: var(--color-neutral-300);
 
-    /** ERROR BUTTONS **/
-    --user-button-color: var(--color-neutral-600);
-    --border-error-button: var(--border);
-    --border-error-button-hover: var(--border);
-    --error-button-background: var(--generic-background);
-    --error-button-background-hover: var(--color-error-50);
-    --error-button-background-active: var(--color-error-100);
+  /** ERROR BUTTONS **/
+  --user-button-color: var(--color-neutral-600);
+  --border-error-button: var(--border);
+  --border-error-button-hover: var(--border);
+  --error-button-background: var(--generic-background);
+  --error-button-background-hover: var(--color-error-50);
+  --error-button-background-active: var(--color-error-100);
 
   /** OTHER **/
   --stroke-modify-button: var(--color-neutral-700);
