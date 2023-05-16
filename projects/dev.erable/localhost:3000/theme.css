@@ -67,11 +67,7 @@
   --color-error-black: #000000;
   --color-generic-background: var(----color-generic-white);
 
-  --color-shadow1: none;
-  --color-shadow2: none;
-  --color-shadow3: none;
-  --color-shadow4: none;
-
+  /* FONTS */
   --font-family-primary: "Friends";
   --font-family-secondary: "Neue Haas Grotesk Display Pro";
   --font-weight-regular: 400;
@@ -79,118 +75,147 @@
   --font-weight-semibold: 700;
   --font-weight-bold: 800;
   --font-weight-extrabold: 900;
-
-  --border-radius-button: "none";
-  --border-radius-searchbar: "none";
-  --border: 1.5px solid var(--color-neutral-900);
-  --border-button: var(--border);
-  --color-shadow: #dcccff;
-  --shadow: 3px 3px var(--color-shadow);
-
-  --nft-info: var(--color-neutral-50);
-  --background-menu: var(--color-generic-background);
-  --border-radius-nft: "none";
-  --border-radius-nft-container: "none";
-  --nft-info-color1: var(--color-neutral-500);
-  --logo-hover-color: var(--color-neutral-300);
-
-  --box-shadow-11: 0 6px 12px rgba(0, 0, 0, 0.11);
-  --box-shadow-15: 0 6px 12px rgba(0, 0, 0, 0.15);
-  --box-shadow-4: 0 6px 12px rgba(0, 0, 0, 0.04);
-
-    /* NFT CARD */
-    --nft-card-ratio: 1/1;
-
-    /* COLLECTION CARD */
-    --border-radius-collection-card: "none";
-    --border-collection-card: 1.5px solid var(--color-neutral-900);
-    --border-radius-collection-card-img: "8px";
-    --border-collection-card-img: 4px solid var(--color-neutral-50);
-    --font-color-collection-card: var(--color-neutral-50);
-    --filter-banner-collection-card: blur(128px);
-
-  --color-button-outline-neutral-700: var(--color-neutral-700);
-  --color-button-outline-primary-900: var(--color-neutral-900);
-  --color-button-text-success: var(--color-primary-700);
-  --color-button-text-success-hover: var(--color-primary-800);
-  --color-button-text-success-active: var(--color-primary-900);
-  --color-button-text-success-disabled: var(--color-primary-50);
-
-  --contained-buttons-background: var(--color-primary-200);
-  --contained-buttons-background-hover: var(--color-primary-100);
-  --contained-buttons-background-active: var(--color-primary-200);
-  --contained-buttons-background-disabled: var(--color-primary-50);
-  --contained-buttons-color-disabled: var(--color-neutral-300);
-  --stroke-modify-button: var(--color-neutral-700);
-  --color-contained-button: var(--color-neutral-700);
-
-  --border-outlined-primary: var(--color-neutral-900);
-  --outlined-primary-background: var(--color-secondary-200);
-  --outlined-primary-background-hover: var(--color-secondary-100);
-  --outlined-primary-background-active: var(--color-secondary-200);
-  --outlined-primary-background-disabled: var(--color-warning-50);
-
-  --background-modals: var(--color-generic-background);
-  --searchbar-focus: var(--border);
-
-  --tag-background-color: var(--color-generic-background);
-  --tag-background-color-hover: var(--color-neutral-100);
-  --tag-background-color-active: var(--color-neutral-300);
-
-  --filter-tags-background-color: var(--color-generic-background);
-  --filter-tags-font-weight: 500;
-
-  --select-filter-background: var(--color-generic-background);
-  --chip-with-number-background-color-selected: var(--color-neutral-200);
-  --chip-with-number-border: 1.5px solid var(--color-neutral-300);
-  --chip-number-circle-background: var(--color-neutral-50);
-  --selected-text-chip-color: var(--color-neutral-900);
-  --not-selected-text-chip-color: var(--color-neutral-500);
-
-  --attributes-background-color: var(--color-generic-background);
-
   --color-primary: var(--color-primary-700);
-  --last-child-attribute: var(--color-neutral-500);
 
+  /* LINEAR GRADIENTS */
   --linear-gradient: linear-gradient(
     90deg,
     var(--color-primary-500) 0%,
     var(--color-primary-200) 100%
   );
 
-  --user-button-color: var(--color-neutral-600);
-  --border-error-button: var(--border);
-  --border-error-button-hover: var(--border);
-  --error-button-background: var(--generic-background);
-  --error-button-background-hover: var(--color-error-50);
-  --error-button-background-active: var(--color-error-100);
+  /* BORDERS */
+  --border: 1.5px solid var(--color-neutral-900);
+  --border-button: var(--border);
 
+  /* BORDER RADIUS */
+  --border-radius-button: "none";
+  --border-radius-searchbar: "none";
+  --border-radius-nft: "none";
+  --border-radius-nft-container: "none";
+  --border-radius-select: 0;
+  --border-radius-amount-input-field: 0;
+
+  /* SHADOWS */
+  --color-shadow: #dcccff;
+  --shadow: 3px 3px var(--color-shadow);
+  --color-shadow1: none;
+  --color-shadow2: none;
+  --color-shadow3: none;
+  --color-shadow4: none;
+  --box-shadow-11: 0 6px 12px rgba(0, 0, 0, 0.11);
+  --box-shadow-15: 0 6px 12px rgba(0, 0, 0, 0.15);
+  --box-shadow-4: 0 6px 12px rgba(0, 0, 0, 0.04);
+
+  /* USERMENU */
+  --background-menu: var(--color-generic-background);
+
+  /* LOGO */
+  --logo-hover-color: var(--color-neutral-300);
+
+  /* NFT CARDS */
+  --nft-info: var(--color-neutral-50);
+  --nft-info-color1: var(--color-neutral-500);
+  --nft-card-ratio: 1/1;
+
+  /* COLLECTION CARD */
+  --border-radius-collection-card: "none";
+  --border-collection-card: 1.5px solid var(--color-neutral-900);
+  --border-radius-collection-card-img: "8px";
+  --border-collection-card-img: 4px solid var(--color-neutral-50);
+  --font-color-collection-card: var(--color-neutral-50);
+  --filter-banner-collection-card: blur(128px);
+
+  /* BUTTONS */
+  /** OUTLINE BUTTONS **/
+  --color-button-outline-neutral-700: var(--color-neutral-700);
+  --color-button-outline-primary-900: var(--color-neutral-900);
+  --border-outlined-primary: var(--color-neutral-900);
+
+  /** TEXT BUTTONS **/
+  --color-button-text-success: var(--color-primary-700);
+  --color-button-text-success-hover: var(--color-primary-800);
+  --color-button-text-success-active: var(--color-primary-900);
+  --color-button-text-success-disabled: var(--color-primary-50);
+  --color-text-primary: var(--color-neutral-900);
+  --color-text-primary-hover: var(--color-neutral-900);
+  --color-text-primary-active: var(--color-neutral-900);
+  --color-text-primary-disabled: var(--color-neutral-900);
+
+  /** CONTAINED BUTTONS **/
+  --color-contained-button: var(--color-neutral-700);
+  --contained-buttons-background: var(--color-primary-200);
+  --contained-buttons-background-hover: var(--color-primary-100);
+  --contained-buttons-background-active: var(--color-primary-200);
+  --contained-buttons-background-disabled: var(--color-primary-50);
+  --contained-buttons-color-disabled: var(--color-neutral-300);
+
+  /** OUTLINED BUTTONS **/
+  --outlined-primary-background: var(--color-secondary-200);
+  --outlined-primary-background-hover: var(--color-secondary-100);
+  --outlined-primary-background-active: var(--color-secondary-200);
+  --outlined-primary-background-disabled: var(--color-warning-50);
+  --border-color-outlined-error: var(--color-neutral-300);
+
+    /** ERROR BUTTONS **/
+    --user-button-color: var(--color-neutral-600);
+    --border-error-button: var(--border);
+    --border-error-button-hover: var(--border);
+    --error-button-background: var(--generic-background);
+    --error-button-background-hover: var(--color-error-50);
+    --error-button-background-active: var(--color-error-100);
+
+  /** OTHER **/
+  --stroke-modify-button: var(--color-neutral-700);
+
+  /* MODALS */
+  --background-modals: var(--color-generic-background);
+
+  /* OTHER */
+  --searchbar-focus: var(--border);
+
+  /* CHIPS */
+  --chip-with-number-background-color-selected: var(--color-neutral-200);
+  --chip-with-number-border: 1.5px solid var(--color-neutral-300);
+  --chip-number-circle-background: var(--color-neutral-50);
+  --selected-text-chip-color: var(--color-neutral-900);
+  --not-selected-text-chip-color: var(--color-neutral-500);
+
+  /* ATTRIBUTES */
+  --attributes-background-color: var(--color-generic-background);
+  --last-child-attribute: var(--color-neutral-500);
+
+  /* TOASTER */
   --toast-background-color: var(--color-generic-background);
   --toast-border-radius: 16px;
   --toast-loader-background: none;
 
+  /* LOADERS */
   --loader-big-part-background: var(--color-generic-background);
   --loader-small-part-background: var(--color-primary-500);
 
-  --border-radius-select: 0;
-  --border-radius-amount-input-field: 0;
+  /* INPUTS */
   --background-input-field-material: var(--color-generic-background);
 
-  --color-text-primary: var(--color-neutral-900);
-  --color-text-primary-hover: var(--color-neutral-900);
-  --color-text-primary-active: var(--color-neutral-900);
-  --color-text-primary-disabled: var(--ccolor-neutral-900);
-
+  /* ALERT MESSAGE */
   --alert-message-default-background: var(--color-primary-50);
   --alert-message-default-color: var(--color-primary-500);
 
-  --border-color-outlined-error: var(--color-neutral-300);
+  /* TAGS */
   --tag-main-color: var(--color-neutral-900);
   --tag-color-live-mint: var(--color-primary-900);
   --tag-live-mint-background: var(--color-primary-200);
   --tag-sale-background: var(--color-neutral-50);
   --tag-eligible-background: var(--color-shadow);
   --tag-eligible-color: var(--color-neutral-900);
+  --tag-background-color: var(--color-generic-background);
+  --tag-background-color-hover: var(--color-neutral-100);
+  --tag-background-color-active: var(--color-neutral-300);
+  --filter-tags-font-weight: 500;
+  --filter-tags-background-color: var(--color-generic-background);
+
+  /* FILTER */
+  --select-filter-background: var(--color-generic-background);
 }
 
 [theme-mode="dark"] {
