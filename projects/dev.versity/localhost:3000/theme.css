@@ -98,6 +98,17 @@
   --box-shadow-15: 0 6px 12px rgba(255, 255, 255, 0.15);
   --box-shadow-4: 0 6px 12px rgba(255, 255, 255, 0.04);
 
+    /* NFT CARD */
+    --nft-card-ratio: 16/24;
+
+    /* COLLECTION CARD */
+    --border-radius-collection-card: "16px";
+    --border-collection-card: "none";
+    --border-radius-collection-card-img: "8px";
+    --border-collection-card-img: none;
+    --font-color-collection-card: var(--color-neutral-900);
+    --filter-banner-collection-card: blur(8px);
+
   --color-button-outline-neutral-700: var(--color-generic-white);
   --color-button-outline-primary-900: var(--color-generic-white);
   --color-button-text-success: var(--color-success-500);

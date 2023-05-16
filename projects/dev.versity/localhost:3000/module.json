@@ -10,14 +10,6 @@
     "Theme": {
       "enabled": false
     },
-    "graphicalChart": {
-      "errorButtonRed": {
-        "enabled": false
-      },
-      "errorButtonPrimary": {
-        "enabled": true
-      }
-    },
     "Marketplace": {
       "primary": {
         "enabled": true
