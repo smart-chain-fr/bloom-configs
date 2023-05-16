@@ -190,6 +190,7 @@
       "owned_by": "Owned by",
       "sale_ends": "Sale ends",
       "table": {
+        "offers": "Offers",
         "bider": "Bider",
         "bid_amount": "Bid Amount",
         "bid_time": "Bid time",
