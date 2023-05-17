@@ -213,6 +213,10 @@
   --tag-background-color-active: var(--color-neutral-700);
   --filter-tags-background-color: var(--color-secondary-500);
   --filter-tags-font-weight: 400;
+  --tag-not-eligible-background: var(--color-neutral-500);
+  --tag-not-eligible-color: var(--color-neutral-50);
+  --tag-border-sale: none;
+  --tag-color-sold: var(--tag-main-color);
 
   /* FILTER */
   --select-filter-background: var(--color-neutral-50);
