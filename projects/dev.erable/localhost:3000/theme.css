@@ -219,7 +219,7 @@
 }
 
 [theme-mode="dark"] {
-  --color-generic-background: var(--color-generic-black);
+  --color-generic-background: var(--color-generic-white);
   --color-primary-50: #e6fef3;
   --color-primary-100: #deffdc;
   --color-primary-200: #98f9cf;
