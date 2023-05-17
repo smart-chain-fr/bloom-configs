@@ -204,7 +204,7 @@
         }
       },
       "Launchpad": {
-        "enabled": true,
+        "enabled": false,
         "props": {
           "path": "/launchpad"
         }
