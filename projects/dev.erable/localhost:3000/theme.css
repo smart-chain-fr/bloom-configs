@@ -143,7 +143,7 @@
   --color-text-primary-disabled: var(--color-neutral-900);
 
   /** CONTAINED BUTTONS **/
-  --color-contained-button: var(--color-neutral-700);
+  --color-contained-button: var(--color-neutral-900);
   --contained-buttons-background: var(--color-primary-200);
   --contained-buttons-background-hover: var(--color-primary-100);
   --contained-buttons-background-active: var(--color-primary-200);
