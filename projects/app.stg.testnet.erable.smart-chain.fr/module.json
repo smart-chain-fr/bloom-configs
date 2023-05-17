@@ -121,10 +121,10 @@
           "enabled": true,
           "props": {
             "NewsletterLink": {
-              "enabled": false
+              "enabled": true
             },
             "NewsletterInput": {
-              "enabled": true
+              "enabled": false
             }
           }
         },
