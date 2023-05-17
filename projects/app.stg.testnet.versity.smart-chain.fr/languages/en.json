@@ -232,12 +232,14 @@
   "toasts": {
     "error": {
       "title": "Error",
-      "an_error_occured": "An error occured"
+      "an_error_occured": "An error occured",
+      "bad_pin": "Bad pin"
     },
     "success": {
       "title": "Success",
       "copy_success": "Copied to clipboard",
-      "save_information": "Your information have been saved"
+      "save_information": "Your information have been saved",
+      "email_verified": "Your email has been verified"
     },
     "tx": {
       "pending": {
@@ -380,6 +382,14 @@
       },
       "info": "This auction has ended. Setting the auction will release NFT from escrow to the auction winner and will release the bid funds to the seller.",
       "accept_button": "Settle auction"
+    },
+    "verification_code": {
+      "title": "Enter your verification code",
+      "description": "We have sent a verification code at {{email}}.",
+      "subtitle": "Verification code",
+      "resend": "Resend verification code",
+      "validate": "Validate account",
+      "complete_later": "Complete later"
     }
   },
   "nft": {
@@ -544,7 +554,8 @@
     "approve_payment": "Approve payment",
     "approve_listing": "Approve listing",
     "buy_now": "Buy it now",
-    "close" : "Close"
+    "close" : "Close",
+    "paste": "Paste"
   },
   "inputs": {
     "placeholder": {
