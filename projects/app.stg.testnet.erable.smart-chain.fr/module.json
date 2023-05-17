@@ -320,7 +320,7 @@
                       "enabled": true,
                       "props": {
                         "History": {
-                          "enabled": false,
+                          "enabled": true,
                           "props": {
                             "path": "other/history"
                           }
@@ -332,7 +332,7 @@
               }
             },
             "Nfts": {
-              "enabled": false,
+              "enabled": true,
               "props": {
                 "path": "parsells"
               }
