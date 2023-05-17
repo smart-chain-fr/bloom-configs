@@ -95,6 +95,7 @@
   --border-radius-nft-container: 8px 8px 8px 8px;
   --border-radius-select: 8px 0 0 8px;
   --border-radius-amount-input-field: 0 8px 8px 0;
+  --border-radius-collection-card: 16px;
 
   /* SHADOWS */
   --color-shadow: "none";
@@ -120,9 +121,9 @@
 
   /* COLLECTION CARD */
   --border-collection-card: "none";
-  --border-radius-collection-card: "16px";
+  --border-radius-collection-card: 16px;
   --border-collection-card-img: none;
-  --border-radius-collection-card-img: "8px";
+  --border-radius-collection-card-img: 8px;
   --font-color-collection-card: var(--color-neutral-900);
   --filter-banner-collection-card: blur(8px);
 
