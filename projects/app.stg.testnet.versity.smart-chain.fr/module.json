@@ -118,7 +118,7 @@
           "enabled": true
         },
         "Newsletter": {
-          "enabled": true,
+          "enabled": false,
           "props": {
             "NewsletterLink": {
               "enabled": false
