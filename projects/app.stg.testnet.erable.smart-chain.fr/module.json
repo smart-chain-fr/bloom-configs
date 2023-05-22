@@ -87,40 +87,35 @@
         "Logo": {
           "enabled": true
         },
-        "SocialMedias": {
-          "enabled" : true,
-          "props" : {
-            "Linkedin": {
-              "enabled": true
-            },
-            "Facebook": {
-              "enabled": true
-            },
-            "Tiktok": {
-              "enabled": true
-            },
-            "Telegram": {
-              "enabled": true
-            },
-            "Instagram": {
-              "enabled": true
-            },
-            "Twitter": {
-              "enabled": true
-            },
-            "Discord": {
-              "enabled": true
-            },
-            "Youtube": {
-              "enabled": true
-            },
-            "Medium": {
-              "enabled": true
-            },
-            "ExternalWebsite": {
-              "enabled": true
-            }
-          }
+        "Linkedin": {
+          "enabled": true
+        },
+        "Facebook": {
+          "enabled": true
+        },
+        "Tiktok": {
+          "enabled": true
+        },
+        "Telegram": {
+          "enabled": true
+        },
+        "Instagram": {
+          "enabled": true
+        },
+        "Twitter": {
+          "enabled": true
+        },
+        "Discord": {
+          "enabled": true
+        },
+        "Youtube": {
+          "enabled": true
+        },
+        "Medium": {
+          "enabled": true
+        },
+        "ExternalWebsite": {
+          "enabled": true
         },
         "Newsletter": {
           "enabled": true,
@@ -145,27 +140,27 @@
       "enabled": true,
       "props": {
         "Navigation": {
-          "enabled": true, 
+          "enabled": true,
           "props": {
             "Profile": {
               "enabled": true
-            }, 
+            },
             "History": {
               "enabled": false
             },
             "Settings": {
-              "enabled": true, 
+              "enabled": true,
               "path": "/settings"
             },
             "MyListings": {
               "enabled": true
-            }, 
+            },
             "MyOrders": {
               "enabled": true
-            }, 
+            },
             "Launchpad": {
               "enabled": false
-            }, 
+            },
             "Market": {
               "enabled": false
             }
@@ -186,16 +181,16 @@
         },
         "CreateAuction": {
           "enabled": false
-        }, 
+        },
         "hasAuctionAndFixedPricePurchase": {
           "enabled": false
-        }, 
+        },
         "hasCurrencySymbolDisplayed": {
           "enabled": false
-        }, 
+        },
         "RegisterModalEmailAtTheTop": {
           "enabled": false
-        }, 
+        },
         "RegisterModalEmailAtTheBottom": {
           "enabled": true
         }
