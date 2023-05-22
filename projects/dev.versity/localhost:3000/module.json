@@ -87,40 +87,35 @@
         "Logo": {
           "enabled": true
         },
-        "SocialMedias": {
-          "enabled": true,
-          "props": {
-            "Linkedin": {
-              "enabled": true
-            },
-            "Facebook": {
-              "enabled": true
-            },
-            "Tiktok": {
-              "enabled": true
-            },
-            "Telegram": {
-              "enabled": true
-            },
-            "Instagram": {
-              "enabled": true
-            },
-            "Twitter": {
-              "enabled": true
-            },
-            "Discord": {
-              "enabled": true
-            },
-            "Youtube": {
-              "enabled": true
-            },
-            "Medium": {
-              "enabled": true
-            },
-            "ExternalWebsite": {
-              "enabled": true
-            }
-          }
+        "Linkedin": {
+          "enabled": true
+        },
+        "Facebook": {
+          "enabled": true
+        },
+        "Tiktok": {
+          "enabled": true
+        },
+        "Telegram": {
+          "enabled": true
+        },
+        "Instagram": {
+          "enabled": true
+        },
+        "Twitter": {
+          "enabled": true
+        },
+        "Discord": {
+          "enabled": true
+        },
+        "Youtube": {
+          "enabled": true
+        },
+        "Medium": {
+          "enabled": true
+        },
+        "ExternalWebsite": {
+          "enabled": true
         },
         "Newsletter": {
           "enabled": true,
