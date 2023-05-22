@@ -1,0 +1,141 @@
+[
+  {
+    "font-family": "Friends",
+    "src": "/Friends/Friends Regular/crossmedia/Friends-Regular.otf",
+    "font-weight": "bold",
+    "font-style": "normal"
+  },
+  {
+    "font-family": "Friends",
+    "src": "/Friends/Friends Normal Italic/crossmedia/Friends-NormalItalic.otf",
+    "font-weight": "normal",
+    "font-style": "italic"
+  },
+  {
+    "font-family": "Friends",
+    "src": "/Friends/Friends Normal/crossmedia/Friends-Normal.otf",
+    "font-weight": "normal",
+    "font-style": "normal"
+  },
+  {
+    "font-family": "Friends",
+    "src": "/Friends/Friends Italic/crossmedia/Friends-Italic.otf",
+    "font-weight": "bold",
+    "font-style": "italic"
+  },
+  {
+    "font-family": "Friends",
+    "src": "/Friends/Friends Semibold/crossmedia/Friends-SemiBold.otf",
+    "font-weight": "700",
+    "font-style": "normal"
+  },
+  {
+    "font-family": "Friends",
+    "src": "/Friends/Friends Semibold Italic/crossmedia/Friends-SemiBoldItalic.otf",
+    "font-weight": "700",
+    "font-style": "italic"
+  },
+  {
+    "font-family": "Friends",
+    "src": "/Friends/Friends Ultrabold Italic/crossmedia/Friends-UltraBoldItalic.otf",
+    "font-weight": "800",
+    "font-style": "italic"
+  },
+  {
+    "font-family": "Friends",
+    "src": "/Friends/Friends Ultrabold/crossmedia/Friends-UltraBold.otf",
+    "font-weight": "800",
+    "font-style": "normal"
+  },
+
+  {
+    "font-family": "Neue Haas Grotesk Display Pro",
+    "src": "/Neue Haas Grotesk Display Pro/NeueHaasDisplayXXThinItalic.ttf",
+    "font-weight": "100",
+    "font-style": "italic"
+  },
+  {
+    "font-family": "Neue Haas Grotesk Display Pro",
+    "src": "/Neue Haas Grotesk Display Pro/NeueHaasDisplayXXThin.ttf",
+    "font-weight": "100",
+    "font-style": "normal"
+  },
+  {
+    "font-family": "Neue Haas Grotesk Display Pro",
+    "src": "/Neue Haas Grotesk Display Pro/NeueHaasDisplayXThinItalic.ttf",
+    "font-weight": "200",
+    "font-style": "italic"
+  },
+  {
+    "font-family": "Neue Haas Grotesk Display Pro",
+    "src": "/Neue Haas Grotesk Display Pro/NeueHaasDisplayXThin.ttf",
+    "font-weight": "200",
+    "font-style": "normal"
+  },
+  {
+    "font-family": "Neue Haas Grotesk Display Pro",
+    "src": "/Neue Haas Grotesk Display Pro/NeueHaasDisplayThin.ttf",
+    "font-weight": "300",
+    "font-style": "normal"
+  },
+  {
+    "font-family": "Neue Haas Grotesk Display Pro",
+    "src": "/Neue Haas Grotesk Display Pro/NeueHaasDisplayThinItalic.ttf",
+    "font-weight": "300",
+    "font-style": "italic"
+  },
+  {
+    "font-family": "Neue Haas Grotesk Display Pro",
+    "src": "/Neue Haas Grotesk Display Pro/NeueHaasDisplayLight.ttf",
+    "font-weight": "400",
+    "font-style": "normal"
+  },
+  {
+    "font-family": "Neue Haas Grotesk Display Pro",
+    "src": "/Neue Haas Grotesk Display Pro/NeueHaasDisplayRoman.ttf",
+    "font-weight": "500",
+    "font-style": "normal"
+  },
+  {
+    "font-family": "Neue Haas Grotesk Display Pro",
+    "src": "/Neue Haas Grotesk Display Pro/NeueHaasDisplayRomanItalic.ttf",
+    "font-weight": "500",
+    "font-style": "italic"
+  },
+  {
+    "font-family": "Neue Haas Grotesk Display Pro",
+    "src": "/Neue Haas Grotesk Display Pro/NeueHaasDisplayMediu.ttf",
+    "font-weight": "600",
+    "font-style": "normal"
+  },
+  {
+    "font-family": "Neue Haas Grotesk Display Pro",
+    "src": "/Neue Haas Grotesk Display Pro/NeueHaasDisplayMediumItalic.ttf",
+    "font-weight": "600",
+    "font-style": "italic"
+  },
+  {
+    "font-family": "Neue Haas Grotesk Display Pro",
+    "src": "/Neue Haas Grotesk Display Pro/NeueHaasDisplayBold.ttf",
+    "font-weight": "700",
+    "font-style": "normal"
+  },
+  {
+    "font-family": "Neue Haas Grotesk Display Pro",
+    "src": "/Neue Haas Grotesk Display Pro/NeueHaasDisplayBoldItalic.ttf",
+    "font-weight": "700",
+    "font-style": "italic"
+  },
+  {
+    "font-family": "Neue Haas Grotesk Display Pro",
+    "src": "/Neue Haas Grotesk Display Pro/NeueHaasDisplayBlack.ttf",
+    "font-weight": "700",
+    "font-style": "normal"
+  },
+  {
+    "font-family": "Neue Haas Grotesk Display Pro",
+    "src": "/Neue Haas Grotesk Display Pro/NeueHaasDisplayBlackItalic.ttf",
+    "font-weight": "900",
+    "font-style": "italic"
+  }
+]
