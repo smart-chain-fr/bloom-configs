@@ -211,7 +211,7 @@
   --tag-background-color: var(--color-generic-background);
   --tag-background-color-hover: var(--color-neutral-100);
   --tag-background-color-active: var(--color-neutral-300);
-  --filter-tags-font-weight: 500;
+  --filter-tags-font-weight: 600;
   --filter-tags-background-color: var(--color-generic-background);
   --tag-not-eligible-background: var(--color-error-200);
   --tag-not-eligible-color: var(--color-error-700);
