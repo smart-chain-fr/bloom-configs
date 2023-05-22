@@ -10,6 +10,14 @@
     "Theme": {
       "enabled": false
     },
+    "graphicalChart": {
+      "errorButtonRed": {
+        "enabled": true
+      },
+      "errorButtonPrimary": {
+        "enabled": false
+      }
+    },
     "Marketplace": {
       "primary": {
         "enabled": true
@@ -80,8 +88,8 @@
           "enabled": true
         },
         "SocialMedias": {
-          "enabled" : true,
-          "props" : {
+          "enabled": true,
+          "props": {
             "Linkedin": {
               "enabled": true
             },
