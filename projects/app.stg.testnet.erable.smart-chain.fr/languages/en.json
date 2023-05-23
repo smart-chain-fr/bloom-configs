@@ -478,6 +478,11 @@
     }
   },
   "components": {
+    "market_preview": {
+      "header": {
+        "by": "By"
+      }
+    },
     "see_all": {
       "collections": "See all collections",
       "nfts": "See all NFTs"
