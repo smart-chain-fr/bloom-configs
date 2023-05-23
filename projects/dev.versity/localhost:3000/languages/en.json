@@ -148,6 +148,7 @@
           "title": "General",
           "form": {
             "email": "Email",
+            "email_description": "",
             "user_name": "Username",
             "first_name": "First name",
             "last_name": "Last name",
@@ -167,6 +168,10 @@
             "label_facebook": "Facebook",
             "placeholder_medium": "https://medium.com/@johndoe",
             "label_medium": "Medium",
+            "placeholder_telegram": "t.me/johndoe",
+            "label_telegram": "Telegram",
+            "placeholder_linkedin": "https://www.linkedin.com/in/john-doe",
+            "label_linkedin": "Linkedin",
             "placeholder_website": "Your website",
             "label_website": "Your website"
           }

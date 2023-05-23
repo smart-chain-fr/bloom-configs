@@ -10,14 +10,6 @@
     "Theme": {
       "enabled": false
     },
-    "graphicalChart": {
-      "errorButtonRed": {
-        "enabled": true
-      },
-      "errorButtonPrimary": {
-        "enabled": false
-      }
-    },
     "Marketplace": {
       "primary": {
         "enabled": true
@@ -188,11 +180,23 @@
         "hasCurrencySymbolDisplayed": {
           "enabled": true
         },
-        "RegisterModalEmailAtTheTop": {
-          "enabled": true
-        },
-        "RegisterModalEmailAtTheBottom": {
-          "enabled": false
+        "RegisterModal": {
+          "props": {
+            "fields": {
+              "email": {
+                "enabled": true
+              },
+              "userName": {
+                "enabled": true
+              },
+              "lastName": {
+                "enabled": true
+              },
+              "firstName": {
+                "enabled": true
+              }
+            }
+          }
         }
       }
     },
@@ -348,13 +352,71 @@
             "General": {
               "enabled": true,
               "props": {
-                "path": "/settings"
+                "path": "/settings",
+                "fields": {
+                  "userName": {
+                    "enabled": true,
+                    "props": {
+                      "required": true
+                    }
+                  },
+                  "firstName": {
+                    "enabled": true,
+                    "props": {
+                      "required": true
+                    }
+                  },
+                  "lastName": {
+                    "enabled": true,
+                    "props": {
+                      "required": true
+                    }
+                  },
+                  "email": {
+                    "enabled": true,
+                    "props": {
+                      "required": true
+                    }
+                  },
+                  "bio": {
+                    "enabled": true,
+                    "props": {
+                      "required": false
+                    }
+                  }
+                }
               }
             },
             "SocialMedia": {
               "enabled": true,
               "props": {
-                "path": "/settings/social-media"
+                "path": "/settings/social-media",
+                "fields": {
+                  "facebook": {
+                    "enabled": true
+                  },
+                  "twitter": {
+                    "enabled": true
+                  },
+                  "instagram": {
+                    "enabled": true
+                  },
+                  "linkedin": {
+                    "enabled": false
+                  },
+                  "telegram": {
+                    "enabled": false
+                  },
+                  "medium": {
+                    "enabled": true
+                  },
+                  "discord": {
+                    "enabled": true
+                  },
+                  "personalWebsite": {
+                    "enabled": true
+                  }
+                }
               }
             }
           }
