@@ -91,6 +91,7 @@
   --border-radius-nft-container: 8px 8px 8px 8px;
   --border-radius-select: 8px 0 0 8px;
   --border-radius-amount-input-field: 0 8px 8px 0;
+  --border-radius-collection-card: 16px;
 
   /* SHADOWS */
   --color-shadow: "none";
@@ -121,6 +122,14 @@
   --border-radius-collection-card-img: 8px;
   --font-color-collection-card: var(--color-neutral-900);
   --filter-banner-collection-card: blur(8px);
+
+  /* MARKET PREVIEW */
+  --border-market-preview: none;
+  --border-radius-market-preview: 8px;
+  --box-shadow-market-preview: none;
+  --background-color-market-preview: rgba(17, 24, 39, 0.3);
+  --background-color-market-preview-hover: rgba(17, 24, 39, 0.5);
+  --owner-typo-color: var(--color-neutral-50);
 
   /* BUTTONS */
   /** OUTLINE BUTTONS **/
@@ -218,8 +227,8 @@
   --tag-background-color-active: var(--color-neutral-700);
   --filter-tags-background-color: var(--color-secondary-500);
   --filter-tags-font-weight: 400;
-  --tag-not-eligible-background: var(--color-error-200);
-  --tag-not-eligible-color: var(--color-error-700);
+  --tag-not-eligible-background: var(--color-neutral-500);
+  --tag-not-eligible-color: var(--color-neutral-50);
   --tag-border-sale: none;
   --tag-color-sold: var(--tag-main-color);
 
