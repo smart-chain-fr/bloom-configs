@@ -224,13 +224,13 @@
       "Launchpad": {
         "enabled": false,
         "props": {
-          "path": "/launchpad"
+          "path": "/market"
         }
       },
       "Launches": {
-        "enabled": true,
+        "enabled": false,
         "props": {
-          "path": "/launches",
+          "path": "/market",
           "pages": {
             "InMint": {
               "enabled": true,
@@ -352,7 +352,7 @@
             "Nfts": {
               "enabled": true,
               "props": {
-                "path": "parsells"
+                "path": "mynfts"
               }
             }
           }
@@ -460,7 +460,7 @@
             "Nfts": {
               "enabled": true,
               "props": {
-                "path": "parsells"
+                "path": "nfts"
               }
             }
           }
