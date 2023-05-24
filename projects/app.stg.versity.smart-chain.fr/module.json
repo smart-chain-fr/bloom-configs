@@ -460,7 +460,6 @@
     },
     "SendCrypto": {
       "enabled": true
-    },
-    "MarketplaceSlider": []
+    }
   }
 }
