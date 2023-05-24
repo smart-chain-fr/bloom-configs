@@ -30,7 +30,7 @@
       "enabled": true,
       "props": {
         "hover": {
-          "enabled": false
+          "enabled": true
         }
       }
     },
@@ -53,7 +53,7 @@
           "enabled": false
         },
         "Market": {
-          "enabled": false
+          "enabled": true
         },
         "Utilities": {
           "enabled": true
@@ -121,10 +121,10 @@
           "enabled": true,
           "props": {
             "NewsletterLink": {
-              "enabled": false
+              "enabled": true
             },
             "NewsletterInput": {
-              "enabled": true
+              "enabled": false
             }
           }
         },
@@ -140,11 +140,11 @@
       "enabled": true,
       "props": {
         "Navigation": {
-          "enabled": true, 
+          "enabled": true,
           "props": {
             "Profile": {
               "enabled": true
-            }, 
+            },
             "History": {
               "enabled": false
             },
@@ -154,13 +154,13 @@
             },
             "MyListings": {
               "enabled": true
-            }, 
+            },
             "MyOrders": {
               "enabled": true
-            }, 
+            },
             "Launchpad": {
               "enabled": false
-            }, 
+            },
             "Market": {
               "enabled": false
             }
@@ -177,23 +177,41 @@
     "Modals": {
       "props": {
         "AddFunds": {
-          "enabled": false
+          "enabled": true
         },
         "CreateAuction": {
           "enabled": false
-        }, 
+        },
         "hasAuctionAndFixedPricePurchase": {
           "enabled": false
-        }, 
+        },
         "hasCurrencySymbolDisplayed": {
           "enabled": false
-        }, 
+        },
         "RegisterModalEmailAtTheTop": {
           "enabled": false
-        }, 
+        },
         "RegisterModalEmailAtTheBottom": {
           "enabled": true
-        }
+        },
+        "durationOptions": [
+          {
+            "label": "1 day",
+            "value": "1"
+          },
+          {
+            "label": "7 days",
+            "value": "7"
+          },
+          {
+            "label": "30 days",
+            "value": "30"
+          },
+          {
+            "label": "6 months",
+            "value": "180"
+          }
+        ]
       }
     },
     "pages": {
@@ -210,7 +228,7 @@
         }
       },
       "Launches": {
-        "enabled": false,
+        "enabled": true,
         "props": {
           "path": "/launches",
           "pages": {
@@ -233,24 +251,24 @@
         }
       },
       "Market": {
-        "enabled": false,
+        "enabled": true,
         "props": {
           "path": "/market",
           "pages": {
             "All": {
-              "enabled": false,
+              "enabled": true,
               "props": {
                 "path": "all"
               }
             },
             "Collections": {
-              "enabled": false,
+              "enabled": true,
               "props": {
                 "path": "collections"
               }
             },
             "NFTs": {
-              "enabled": false,
+              "enabled": true,
               "props": {
                 "path": "nfts"
               }
@@ -265,7 +283,7 @@
         }
       },
       "Utilities": {
-        "enabled": false,
+        "enabled": true,
         "props": {
           "path": "/utilities"
         }
@@ -320,7 +338,7 @@
                       "enabled": true,
                       "props": {
                         "History": {
-                          "enabled": false,
+                          "enabled": true,
                           "props": {
                             "path": "other/history"
                           }
@@ -332,7 +350,7 @@
               }
             },
             "Nfts": {
-              "enabled": false,
+              "enabled": true,
               "props": {
                 "path": "parsells"
               }
@@ -429,7 +447,7 @@
         }
       },
       "Collection": {
-        "enabled": false,
+        "enabled": true,
         "props": {
           "path": "/collection/:collectionAddress",
           "pages": {
@@ -449,7 +467,7 @@
         }
       },
       "NFT": {
-        "enabled": false,
+        "enabled": true,
         "props": {
           "path": "/asset/:collectionAddress/:tokenId"
         }
