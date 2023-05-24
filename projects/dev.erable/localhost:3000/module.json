@@ -10,14 +10,6 @@
     "Theme": {
       "enabled": false
     },
-    "graphicalChart": {
-      "errorButtonRed": {
-        "enabled": true
-      },
-      "errorButtonPrimary": {
-        "enabled": false
-      }
-    },
     "Marketplace": {
       "primary": {
         "enabled": true
@@ -188,12 +180,42 @@
         "hasCurrencySymbolDisplayed": {
           "enabled": false
         },
-        "RegisterModalEmailAtTheTop": {
-          "enabled": false
+        "RegisterModal": {
+          "props": {
+            "fields": {
+              "email": {
+                "enabled": true
+              },
+              "userName": {
+                "enabled": true
+              },
+              "lastName": {
+                "enabled": false
+              },
+              "firstName": {
+                "enabled": false
+              }
+            }
+          }
         },
-        "RegisterModalEmailAtTheBottom": {
-          "enabled": true
-        }
+        "durationOptions": [
+          {
+            "label": "1 day",
+            "value": "1"
+          },
+          {
+            "label": "7 days",
+            "value": "7"
+          },
+          {
+            "label": "30 days",
+            "value": "30"
+          },
+          {
+            "label": "6 months",
+            "value": "180"
+          }
+        ]
       }
     },
     "pages": {
@@ -206,13 +228,13 @@
       "Launchpad": {
         "enabled": false,
         "props": {
-          "path": "/launchpad"
+          "path": "/market"
         }
       },
       "Launches": {
-        "enabled": true,
+        "enabled": false,
         "props": {
-          "path": "/launches",
+          "path": "/market",
           "pages": {
             "InMint": {
               "enabled": true,
@@ -334,7 +356,7 @@
             "Nfts": {
               "enabled": true,
               "props": {
-                "path": "parsells"
+                "path": "mynfts"
               }
             }
           }
@@ -348,13 +370,71 @@
             "General": {
               "enabled": true,
               "props": {
-                "path": "/settings"
+                "path": "/settings",
+                "fields": {
+                  "userName": {
+                    "enabled": true,
+                    "props": {
+                      "required": true
+                    }
+                  },
+                  "firstName": {
+                    "enabled": true,
+                    "props": {
+                      "required": false
+                    }
+                  },
+                  "lastName": {
+                    "enabled": true,
+                    "props": {
+                      "required": false
+                    }
+                  },
+                  "email": {
+                    "enabled": true,
+                    "props": {
+                      "required": true
+                    }
+                  },
+                  "bio": {
+                    "enabled": true,
+                    "props": {
+                      "required": false
+                    }
+                  }
+                }
               }
             },
             "SocialMedia": {
               "enabled": true,
               "props": {
-                "path": "/settings/social-media"
+                "path": "/settings/social-media",
+                "fields": {
+                  "facebook": {
+                    "enabled": false
+                  },
+                  "twitter": {
+                    "enabled": true
+                  },
+                  "instagram": {
+                    "enabled": true
+                  },
+                  "linkedin": {
+                    "enabled": true
+                  },
+                  "telegram": {
+                    "enabled": true
+                  },
+                  "medium": {
+                    "enabled": true
+                  },
+                  "discord": {
+                    "enabled": false
+                  },
+                  "personalWebsite": {
+                    "enabled": true
+                  }
+                }
               }
             }
           }
@@ -436,7 +516,7 @@
             "Nfts": {
               "enabled": true,
               "props": {
-                "path": "parsells"
+                "path": "nfts"
               }
             },
             "Activities": {
