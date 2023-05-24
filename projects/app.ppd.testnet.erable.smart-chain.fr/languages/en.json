@@ -28,7 +28,7 @@
     "collections": "collections",
     "nfts": "nfts",
     "results": "results",
-    "duration": "Duration", 
+    "duration": "Duration",
     "project_link": "Know more about {{project_link}}"
   },
   "header": {
@@ -232,12 +232,14 @@
   "toasts": {
     "error": {
       "title": "Error",
-      "an_error_occured": "An error occured"
+      "an_error_occured": "An error occured",
+      "bad_pin": "Bad pin"
     },
     "success": {
       "title": "Success",
       "copy_success": "Copied to clipboard",
-      "save_information": "Your information have been saved"
+      "save_information": "Your information have been saved",
+      "email_verified": "Your email has been verified"
     },
     "tx": {
       "pending": {
@@ -552,7 +554,8 @@
     "approve_payment": "Approve payment",
     "approve_listing": "Approve listing",
     "buy_now": "Buy it now",
-    "close" : "Close"
+    "close": "Close",
+    "paste": "Paste"
   },
   "inputs": {
     "placeholder": {

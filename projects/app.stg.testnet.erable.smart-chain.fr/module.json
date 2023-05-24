@@ -197,7 +197,25 @@
               }
             }
           }
-        }
+        },
+        "durationOptions": [
+          {
+            "label": "1 day",
+            "value": "1"
+          },
+          {
+            "label": "7 days",
+            "value": "7"
+          },
+          {
+            "label": "30 days",
+            "value": "30"
+          },
+          {
+            "label": "6 months",
+            "value": "180"
+          }
+        ]
       }
     },
     "pages": {
@@ -210,13 +228,13 @@
       "Launchpad": {
         "enabled": false,
         "props": {
-          "path": "/launchpad"
+          "path": "/market"
         }
       },
       "Launches": {
-        "enabled": true,
+        "enabled": false,
         "props": {
-          "path": "/launches",
+          "path": "/market",
           "pages": {
             "InMint": {
               "enabled": true,
@@ -338,7 +356,7 @@
             "Nfts": {
               "enabled": true,
               "props": {
-                "path": "parsells"
+                "path": "mynfts"
               }
             }
           }
@@ -504,7 +522,7 @@
             "Nfts": {
               "enabled": true,
               "props": {
-                "path": "parsells"
+                "path": "nfts"
               }
             }
           }

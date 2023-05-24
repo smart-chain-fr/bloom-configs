@@ -197,7 +197,25 @@
               }
             }
           }
-        }
+        },
+        "durationOptions": [
+          {
+            "label": "24h",
+            "value": "1"
+          },
+          {
+            "label": "3 days",
+            "value": "3"
+          },
+          {
+            "label": "1 week",
+            "value": "7"
+          },
+          {
+            "label": "1 month",
+            "value": "30"
+          }
+        ]
       }
     },
     "pages": {
@@ -338,7 +356,7 @@
             "Nfts": {
               "enabled": true,
               "props": {
-                "path": "parsells"
+                "path": "mynfts"
               }
             }
           }
@@ -504,7 +522,7 @@
             "Nfts": {
               "enabled": true,
               "props": {
-                "path": "parsells"
+                "path": "nfts"
               }
             }
           }
