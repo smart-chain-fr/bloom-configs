@@ -123,6 +123,14 @@
   --font-color-collection-card: var(--color-neutral-50);
   --filter-banner-collection-card: blur(128px);
 
+  /* MARKET PREVIEW */
+  --border-market-preview: 1.5px solid var(--color-neutral-900);
+  --border-radius-market-preview: "none";
+  --box-shadow-market-preview: 3px 3px 0px #dcccff;
+  --background-color-market-preview: var(--color-generic-white);
+  --background-color-market-preview-hover: var(--color-neutral-100);
+  --owner-typo-color: var(--color-neutral-900);
+
   /* BUTTONS */
   /** OUTLINE BUTTONS **/
   --color-button-outline-neutral-700: var(--color-neutral-700);

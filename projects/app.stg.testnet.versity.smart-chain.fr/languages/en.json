@@ -28,7 +28,7 @@
     "collections": "collections",
     "nfts": "nfts",
     "results": "results",
-    "duration": "Duration", 
+    "duration": "Duration",
     "project_link": "Know more about {{project_link}}"
   },
   "header": {
@@ -120,7 +120,7 @@
                 "fixed_price": "Fixed price",
                 "auctions": "Auctions"
               },
-              "history": "History", 
+              "history": "History",
               "settings": "Settings"
             }
           },
@@ -478,6 +478,14 @@
     }
   },
   "components": {
+    "market_preview": {
+      "header": {
+        "by": "By"
+      },
+      "body": {
+        "nfts": "NFTs"
+      }
+    },
     "see_all": {
       "collections": "See all collections",
       "nfts": "See all NFTs"
@@ -554,7 +562,7 @@
     "approve_payment": "Approve payment",
     "approve_listing": "Approve listing",
     "buy_now": "Buy it now",
-    "close" : "Close",
+    "close": "Close",
     "paste": "Paste"
   },
   "inputs": {

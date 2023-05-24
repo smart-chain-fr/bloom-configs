@@ -28,7 +28,7 @@
     "collections": "collections",
     "nfts": "nfts",
     "results": "results",
-    "duration": "Duration", 
+    "duration": "Duration",
     "project_link": "Know more about {{project_link}}"
   },
   "header": {
@@ -39,7 +39,7 @@
     "nav_links": {
       "launches": "Launches",
       "market": "Market",
-      "my_parsells": "Profile",
+      "my_parsells": "My Parsells",
       "history": "History",
       "listings": "My Listings",
       "orders": "My Orders"
@@ -103,8 +103,8 @@
       "you": "You",
       "subPages": {
         "nfts": {
-          "my_title": "My NFT",
-          "title": "NFT"
+          "my_title": "My Parsells",
+          "title": "Parsells"
         },
         "activities": {
           "title": "Activities",
@@ -232,12 +232,14 @@
   "toasts": {
     "error": {
       "title": "Error",
-      "an_error_occured": "An error occured"
+      "an_error_occured": "An error occured",
+      "bad_pin": "Bad pin"
     },
     "success": {
       "title": "Success",
       "copy_success": "Copied to clipboard",
-      "save_information": "Your information have been saved"
+      "save_information": "Your information have been saved",
+      "email_verified": "Your email has been verified"
     },
     "tx": {
       "pending": {
@@ -476,6 +478,14 @@
     }
   },
   "components": {
+    "market_preview": {
+      "header": {
+        "by": "By"
+      },
+      "body": {
+        "nfts": "NFTs"
+      }
+    },
     "see_all": {
       "collections": "See all collections",
       "nfts": "See all NFTs"
@@ -552,7 +562,8 @@
     "approve_payment": "Approve payment",
     "approve_listing": "Approve listing",
     "buy_now": "Buy it now",
-    "close" : "Close"
+    "close": "Close",
+    "paste": "Paste"
   },
   "inputs": {
     "placeholder": {
