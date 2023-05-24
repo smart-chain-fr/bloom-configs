@@ -481,6 +481,9 @@
     "market_preview": {
       "header": {
         "by": "By"
+      },
+      "body": {
+        "nfts": "NFTs"
       }
     },
     "see_all": {
