@@ -204,7 +204,7 @@
   ],
   "api": {
     "rootUrl": "{{origin}}/api",
-    "back": "https://api.stg.versity.smart-chain.fr/api",
+    "back": "https://exchange-back-b37p5os7uq-ez.a.run.app/",
     "coingecko": "https://api.coingecko.com/api/v3",
     "binance": "https://api.binance.com/api/v3"
   },
