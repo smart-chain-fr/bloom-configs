@@ -266,7 +266,10 @@
   },
   "policies": {
     "privacy_policy": "Privacy Policy",
-    "terms_of_service": "Terms of Service"
+    "terms_of_service": "Terms of Service",
+    "legal_notice": "Legal notice",
+    "contact_us": "Contact us",
+    "FAQ": "FAQ"
   },
   "modals": {
     "gas_price": "You need funds in {{tokenName}} in order to pay gas price. You can purchase {{tokenName}} by credit card by clicking in  ",

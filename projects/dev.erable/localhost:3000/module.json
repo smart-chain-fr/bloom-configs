@@ -120,11 +120,28 @@
             }
           }
         },
-        "PrivacyPolicy": {
-          "enabled": true
+        "policies": {
+          "enabled": true, 
+          "props": {
+            "PrivacyPolicy": {
+              "enabled": true
+            },
+            "TermsOfService": {
+              "enabled": true
+            },
+            "LegalNotice": {
+              "enabled": true
+            },
+            "ContactUs": {
+              "enabled": true
+            },
+            "FAQ": {
+              "enabled": true
+            }
+          }
         },
-        "TermsOfService": {
-          "enabled": true
+        "Market": {
+          "enabled": false
         }
       }
     },

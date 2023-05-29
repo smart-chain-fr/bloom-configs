@@ -126,6 +126,29 @@
         "TermsOfService": {
           "enabled": true
         }
+      },
+      "policies": {
+        "enabled": true, 
+        "props": {
+          "PrivacyPolicy": {
+            "enabled": true
+          },
+          "TermsOfService": {
+            "enabled": true
+          },
+          "LegalNotice": {
+            "enabled": false
+          },
+          "ContactUs": {
+            "enabled": false
+          },
+          "FAQ": {
+            "enabled": false
+          }
+        }
+      },
+      "Market": {
+        "enabled": true
       }
     },
     "UserMenu": {
