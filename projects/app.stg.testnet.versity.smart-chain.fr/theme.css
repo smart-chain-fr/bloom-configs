@@ -78,7 +78,11 @@
   --color-primary: var(--color-primary-500);
 
   /* LINEAR GRADIENTS */
-  --linear-gradient: linear-gradient(90deg, var(--color-secondary-300) 0%, var(--color-secondary-900) 100%);
+  --linear-gradient: linear-gradient(
+    90deg,
+    var(--color-secondary-300) 0%,
+    var(--color-secondary-900) 100%
+  );
 
   /* BORDERS */
   --border: 1px solid var(--color-neutral-300);
@@ -234,6 +238,9 @@
 
   /* FILTER */
   --select-filter-background: var(--color-neutral-50);
+
+  /* FOOTER */
+  --color-footer-link: var(--color-neutral-500);
 }
 
 [theme-mode="dark"] {

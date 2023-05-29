@@ -234,6 +234,9 @@
 
   /* FILTER */
   --select-filter-background: var(--color-generic-background);
+
+  /* FOOTER */
+  --color-footer-link: var(--color-neutral-400);
 }
 
 [theme-mode="dark"] {
