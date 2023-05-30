@@ -198,7 +198,7 @@
     },
     "pages": {
       "Home": {
-        "enabled": true,
+        "enabled": false,
         "props": {
           "path": { "pathname": "/", "hash": "#" }
         }
@@ -206,13 +206,13 @@
       "Launchpad": {
         "enabled": false,
         "props": {
-          "path": "/launchpad"
+          "path": "/"
         }
       },
       "Launches": {
         "enabled": false,
         "props": {
-          "path": "/launches",
+          "path": "/",
           "pages": {
             "InMint": {
               "enabled": true,
@@ -235,7 +235,7 @@
       "Market": {
         "enabled": false,
         "props": {
-          "path": "/market",
+          "path": "/",
           "pages": {
             "All": {
               "enabled": true,
