@@ -167,7 +167,11 @@
             "label_facebook": "Facebook",
             "placeholder_medium": "https://medium.com/@johndoe",
             "label_medium": "Medium",
-            "placeholder_website": "Your website",
+            "placeholder_telegram": "t.me/johndoe",
+            "label_telegram": "Telegram",
+            "placeholder_linkedin": "https://www.linkedin.com/in/john-doe",
+            "label_linkedin": "Linkedin",
+            "placeholder_website": "URL",
             "label_website": "Your website"
           }
         }
