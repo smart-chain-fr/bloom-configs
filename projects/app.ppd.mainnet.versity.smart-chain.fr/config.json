@@ -56,7 +56,7 @@
         },
         "openlogin": {
           "label": "openlogin",
-          "enabled": false,
+          "enabled": true,
           "loginMethods": {
             "enabled": true,
             "google": {
@@ -209,7 +209,7 @@
     "binance": "https://api.binance.com/api/v3"
   },
   "socket": {
-    "url": "https://ws.ppd.bloom-exchange.smart-chain.fr"
+    "url": "https://ws.ppd.mainnet.bloom-exchange.smart-chain.fr"
   },
   "sentry": {
     "enabled": true,
