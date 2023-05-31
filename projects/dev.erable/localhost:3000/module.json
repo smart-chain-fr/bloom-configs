@@ -143,7 +143,7 @@
             "ContactUs": {
               "enabled": true, 
               "I18nKey": "contact_us",
-              "path": "/"
+              "path": "https://notionforms.io/forms/contact-us-169"
             },
             "FAQ": {
               "enabled": true, 
