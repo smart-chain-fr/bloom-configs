@@ -512,6 +512,11 @@
         "description": "Description"
       }
     },
+    "edit_mail_modal": {
+      "title": "Enter your new email address",
+      "field": "Your new email address",
+      "continue": "Continue"
+    },
     "file_input": {
       "title": "Profile picture",
       "description": "We recommend that you use an image of at least {{recommandedWidth}} x {{recommandedHeight}} pixels and that it is no larger than {{maxMbSize}} MB. Import a PNG or JPEG file."

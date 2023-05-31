@@ -147,10 +147,10 @@
         "general": {
           "title": "General",
           "form": {
-            "email": "Notification email",
-            "email_description": "This email will be use for notification. It can be different from your authentification email. You will be able to change it whenever you want.",
+            "email": "Notification Email",
+            "email_description": "This email will be use for notification.",
             "user_name": "Username",
-            "first_name": "First name",
+            "first_name": "Name",
             "last_name": "Last name",
             "description": "Description"
           }
@@ -168,7 +168,11 @@
             "label_facebook": "Facebook",
             "placeholder_medium": "https://medium.com/@johndoe",
             "label_medium": "Medium",
-            "placeholder_website": "Your website",
+            "placeholder_telegram": "t.me/johndoe",
+            "label_telegram": "Telegram",
+            "placeholder_linkedin": "https://www.linkedin.com/in/john-doe",
+            "label_linkedin": "Linkedin",
+            "placeholder_website": "URL",
             "label_website": "Your website"
           }
         }
@@ -267,7 +271,10 @@
   },
   "policies": {
     "privacy_policy": "Privacy Policy",
-    "terms_of_service": "Terms of Service"
+    "terms_of_service": "Terms of Service",
+    "legal_notice": "Legal notice",
+    "contact_us": "Contact us",
+    "FAQ": "FAQ"
   },
   "modals": {
     "gas_price": "You need funds in {{tokenName}} in order to pay gas price. You can purchase {{tokenName}} by credit card by clicking in  ",
@@ -504,6 +511,11 @@
         "last_name": "Last name",
         "description": "Description"
       }
+    },
+    "edit_mail_modal": {
+      "title": "Enter your new email address",
+      "field": "Your new email address",
+      "continue": "Continue"
     },
     "file_input": {
       "title": "Profile picture",

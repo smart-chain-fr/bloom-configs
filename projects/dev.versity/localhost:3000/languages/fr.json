@@ -168,6 +168,10 @@
             "label_facebook": "Facebook",
             "placeholder_medium": "https://medium.com/@johndoe",
             "label_medium": "Medium",
+            "placeholder_telegram": "t.me/johndoe",
+            "label_telegram": "Telegram",
+            "placeholder_linkedin": "https://www.linkedin.com/in/john-doe",
+            "label_linkedin": "Linkedin",
             "placeholder_website": "Your website",
             "label_website": "Your website"
           }
@@ -507,6 +511,11 @@
         "last_name": "Last name",
         "description": "Description"
       }
+    },
+    "edit_mail_modal": {
+      "title": "Enter your new email address",
+      "field": "Your new email address",
+      "continue": "Continue"
     },
     "file_input": {
       "title": "Profile picture",
