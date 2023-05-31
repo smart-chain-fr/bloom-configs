@@ -256,7 +256,15 @@
             "label": "1 month",
             "value": "30"
           }
-        ]
+        ], 
+        "verificationModal": {
+          "enabled": true, 
+          "props": {
+            "copyPasteButtonIcon": {
+              "enabled": true
+            }
+          }
+        }
       }
     },
     "pages": {

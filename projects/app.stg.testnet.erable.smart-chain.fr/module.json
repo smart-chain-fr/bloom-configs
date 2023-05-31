@@ -256,7 +256,15 @@
             "label": "6 months",
             "value": "180"
           }
-        ]
+        ], 
+        "verificationModal": {
+          "enabled": true, 
+          "props": {
+            "copyPasteButtonIcon": {
+              "enabled": false
+            }
+          }
+        }
       }
     },
     "pages": {
