@@ -160,7 +160,7 @@
   --color-contained-button: var(--color-neutral-900);
 
   /** OUTLINED BUTTONS **/
-  --outlined-primary-background: transparent;
+  --outlined-primary-background: var(--color-neutral-50);
   --outlined-primary-background-hover: var(--color-neutral-100);
   --outlined-primary-background-active: var(--color-neutral-100);
   --outlined-primary-background-disabled: transparent;

@@ -147,7 +147,8 @@
         "general": {
           "title": "General",
           "form": {
-            "email": "Email",
+            "email": "Notification email",
+            "email_description": "This email will be use for notification. It can be different from your authentification email. You will be able to change it whenever you want.",
             "email_description": "",
             "user_name": "Username",
             "first_name": "First name",

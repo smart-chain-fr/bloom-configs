@@ -172,7 +172,7 @@
             "label_telegram": "Telegram",
             "placeholder_linkedin": "https://www.linkedin.com/in/john-doe",
             "label_linkedin": "Linkedin",
-            "placeholder_website": "Your website",
+            "placeholder_website": "URL",
             "label_website": "Your website"
           }
         }
