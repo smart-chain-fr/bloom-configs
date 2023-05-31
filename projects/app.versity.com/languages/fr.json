@@ -234,7 +234,7 @@
   "toasts": {
     "error": {
       "title": "Error",
-      "an_error_occured": "An error occured",
+      "an_error_occured": "Please try refreshing the page, or return back later.",
       "bad_pin": "Bad pin"
     },
     "success": {
