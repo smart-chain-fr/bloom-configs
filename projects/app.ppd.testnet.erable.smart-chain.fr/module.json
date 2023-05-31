@@ -113,7 +113,9 @@
           "enabled": true,
           "props": {
             "NewsletterLink": {
-              "enabled": true
+              "enabled": true, 
+              "path": "https://495c7097.sibforms.com/serve/MUIEAHk43dNWFjXuiwDQpYH5BQchOV103vh5UXpBy_QFLS4t-7_mltNTFkUh4rF29G-lq_v1KK0DDe2pUouBMRWIXulQzViRtP5cAY7aEDa4c1AWX2BugrIGGqNoVPC4QZbIPf7hScQw-gLKG11m-wUIqxYGUuY2Uh8Ko9A9R7nOkXn-ZdjR9p3zht6_baSvNrfO4IviqcVBsG9e"
+
             },
             "NewsletterInput": {
               "enabled": false
