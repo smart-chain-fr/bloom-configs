@@ -103,11 +103,12 @@
       "you": "You",
       "subPages": {
         "nfts": {
-          "my_title": "My NFT",
-          "title": "NFT"
+					"my_title": "My NFTs",
+					"title": "NFTs"
         },
         "activities": {
-          "title": "Activities",
+					"my_title": "My Activities",
+					"title": "Activities",
           "menu": {
             "options": {
               "orders": {

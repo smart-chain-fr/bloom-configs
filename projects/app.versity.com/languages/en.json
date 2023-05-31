@@ -107,7 +107,8 @@
           "title": "Parsells"
         },
         "activities": {
-          "title": "Activities",
+					"my_title": "My Activities",
+					"title": "Activities",
           "menu": {
             "options": {
               "orders": {
