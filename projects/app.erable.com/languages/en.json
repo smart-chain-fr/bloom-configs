@@ -386,7 +386,7 @@
     },
     "verification_code": {
       "title": "Enter your verification code",
-      "description": "We have sent a verification code at {{email}}.",
+      "description": "We have sent a verification code at {{email}}",
       "subtitle": "Verification code",
       "resend": "Resend verification code",
       "validate": "Validate account",
@@ -547,8 +547,8 @@
     "unique_username": "This username is already taken",
     "unique_email": "This email is already taken",
     "invalid_wallet_address": "Please, enter a valid address",
-		"below_max": "This field must be lower than max",
-		"above_min": "This field must be upper than min",
+    "below_max": "This field must be lower than max",
+    "above_min": "This field must be upper than min",
     "above_max_wallet_funds": "Not enough tokens in your wallet",
     "need_to_be_above_current_bid": "You bid must be greater than or equal to 1% more than the previous bid",
     "need_to_be_above_reserve_price": "Please enter an amount greater or equal than the reserve price"
