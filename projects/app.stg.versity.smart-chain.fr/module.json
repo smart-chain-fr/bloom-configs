@@ -216,16 +216,28 @@
           "props": {
             "fields": {
               "email": {
-                "enabled": true
+                "enabled": true,
+                "props" : {
+                  "required": true
+                }
               },
               "userName": {
-                "enabled": true
+                "enabled": true,
+                "props" : {
+                  "required": true
+                }
               },
               "lastName": {
-                "enabled": true
+                "enabled": true,
+                "props" : {
+                  "required": true
+                }
               },
               "firstName": {
-                "enabled": true
+                "enabled": true,
+                "props" : {
+                  "required": true
+                }
               }
             }
           }

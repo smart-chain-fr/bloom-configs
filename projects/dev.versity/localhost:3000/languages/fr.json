@@ -168,6 +168,10 @@
             "label_facebook": "Facebook",
             "placeholder_medium": "https://medium.com/@johndoe",
             "label_medium": "Medium",
+            "placeholder_telegram": "t.me/johndoe",
+            "label_telegram": "Telegram",
+            "placeholder_linkedin": "https://www.linkedin.com/in/john-doe",
+            "label_linkedin": "Linkedin",
             "placeholder_website": "Your website",
             "label_website": "Your website"
           }
@@ -227,7 +231,7 @@
       "floor_price": "Floor price",
       "exchange_volume": "Exchanged volume",
       "royalties": "Royalties",
-      "search": "Search by name or attribute"
+      "search": "Search"
     }
   },
   "toasts": {
@@ -508,6 +512,11 @@
         "description": "Description"
       }
     },
+    "edit_mail_modal": {
+      "title": "Enter your new email address",
+      "field": "Your new email address",
+      "continue": "Continue"
+    },
     "file_input": {
       "title": "Profile picture",
       "description": "We recommend that you use an image of at least {{recommandedWidth}} x {{recommandedHeight}} pixels and that it is no larger than {{maxMbSize}} MB. Import a PNG or JPEG file."
@@ -550,8 +559,8 @@
     "unique_username": "This username is already taken",
     "unique_email": "This email is already taken",
     "invalid_wallet_address": "Please, enter a valid address",
-    "below_min": "This field must be upper than max",
-    "above_max": "This field must be lower than max",
+		"below_max": "This field must be lower than max",
+		"above_min": "This field must be upper than min",
     "above_max_wallet_funds": "Not enough tokens in your wallet",
     "need_to_be_above_current_bid": "You bid must be greater than or equal to 1% more than the previous bid",
     "need_to_be_above_reserve_price": "Please enter an amount greater or equal than the reserve price"

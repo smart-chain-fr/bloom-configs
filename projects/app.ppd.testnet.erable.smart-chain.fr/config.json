@@ -204,12 +204,12 @@
   ],
   "api": {
     "rootUrl": "{{origin}}/api",
-    "back": "https://api.stg.testnet.bloom-exchange.smart-chain.fr/api",
+    "back": "https://api.ppd.testnet.bloom-exchange.smart-chain.fr/api",
     "coingecko": "https://api.coingecko.com/api/v3",
     "binance": "https://api.binance.com/api/v3"
   },
   "socket": {
-    "url": "https://ws.stg.versity.smart-chain.fr"
+    "url": "https://ws.ppd.bloom-exchange.smart-chain.fr"
   },
   "sentry": {
     "enabled": false,
