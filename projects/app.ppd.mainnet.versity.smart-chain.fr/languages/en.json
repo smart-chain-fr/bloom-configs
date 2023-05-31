@@ -234,7 +234,7 @@
   "toasts": {
     "error": {
       "title": "Error",
-      "an_error_occured": "An error occured",
+      "an_error_occured": "Please try refreshing the page, or return back later.",
       "bad_pin": "Bad pin"
     },
     "success": {
@@ -285,7 +285,9 @@
       "send_to": "Send to",
       "amount": "Amount",
       "left_tip": "Tip: Simple caption text here",
-      "right_tip": "Amount available"
+      "right_tip": "Amount available",
+      "alert_no_token_available" : "You don't have any token to send",
+      "buy_token": "Buy tokens to see them here"
     },
     "confirm": {
       "from": "From",
