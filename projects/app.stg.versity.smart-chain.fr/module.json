@@ -263,7 +263,7 @@
         "verificationModal": {
           "enabled": true, 
           "props": {
-            "copyPasteButtonIcon": {
+            "copyPasteButton": {
               "enabled": true
             }
           }
