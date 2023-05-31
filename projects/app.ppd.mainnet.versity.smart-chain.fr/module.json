@@ -128,10 +128,39 @@
             }
           }
         },
-        "PrivacyPolicy": {
-          "enabled": true
+        "policies": {
+          "enabled": true,
+          "props": {
+            "PrivacyPolicy": {
+              "enabled": true,
+              "I18nKey": "privacy_policy"
+            },
+            "TermsOfService": {
+              "enabled": true,
+              "I18nKey": "terms_of_service"
+            },
+            "LegalNotice": {
+              "enabled": false,
+              "I18nKey": "legal_notice"
+            }
+          }
         },
-        "TermsOfService": {
+        "moreInfoLink": {
+          "enabled": false,
+          "props": {
+            "ContactUs": {
+              "enabled": false,
+              "I18nKey": "contact_us",
+              "path": "/"
+            },
+            "FAQ": {
+              "enabled": false,
+              "I18nKey": "FAQ",
+              "path": "/"
+            }
+          }
+        },
+        "Market": {
           "enabled": true
         }
       }
