@@ -10,27 +10,19 @@
     "Theme": {
       "enabled": false
     },
-    "graphicalChart": {
-      "errorButtonRed": {
-        "enabled": true
-      },
-      "errorButtonPrimary": {
-        "enabled": false
-      }
-    },
     "Marketplace": {
       "primary": {
-        "enabled": false
+        "enabled": true
       },
       "secondary": {
-        "enabled": false
+        "enabled": true
       }
     },
     "NFT": {
       "enabled": true,
       "props": {
         "hover": {
-          "enabled": false
+          "enabled": true
         }
       }
     },
@@ -121,18 +113,47 @@
           "enabled": true,
           "props": {
             "NewsletterLink": {
-              "enabled": false
+              "enabled": true
             },
             "NewsletterInput": {
-              "enabled": true
+              "enabled": false
             }
           }
         },
-        "PrivacyPolicy": {
-          "enabled": true
+        "policies": {
+          "enabled": true, 
+          "props": {
+            "PrivacyPolicy": {
+              "enabled": true, 
+              "I18nKey": "privacy_policy"
+            },
+            "TermsOfService": {
+              "enabled": true,
+              "I18nKey": "terms_of_service"
+            },
+            "LegalNotice": {
+              "enabled": true,
+              "I18nKey": "legal_notice"
+            }
+          }
         },
-        "TermsOfService": {
-          "enabled": true
+        "moreInfoLink": {
+          "enabled": true, 
+          "props": {
+            "ContactUs": {
+              "enabled": true, 
+              "I18nKey": "contact_us",
+              "path": "https://notionforms.io/forms/contact-us-169"
+            },
+            "FAQ": {
+              "enabled": true, 
+              "I18nKey": "FAQ",
+              "path": "/"
+            }
+          }
+        },
+        "Market": {
+          "enabled": false
         }
       }
     },
@@ -177,10 +198,10 @@
     "Modals": {
       "props": {
         "AddFunds": {
-          "enabled": false
+          "enabled": true
         },
         "CreateAuction": {
-          "enabled": false
+          "enabled": true
         },
         "hasAuctionAndFixedPricePurchase": {
           "enabled": false
@@ -188,12 +209,54 @@
         "hasCurrencySymbolDisplayed": {
           "enabled": false
         },
-        "RegisterModalEmailAtTheTop": {
-          "enabled": false
+        "RegisterModal": {
+          "props": {
+            "fields": {
+              "email": {
+                "enabled": true,
+                "props" : {
+                  "required": true
+                }
+              },
+              "userName": {
+                "enabled": true,
+                "props" : {
+                  "required": false
+                }
+              },
+              "lastName": {
+                "enabled": false,
+                "props" : {
+                  "required": false
+                }
+              },
+              "firstName": {
+                "enabled": false,
+                "props" : {
+                  "required": false
+                }
+              }
+            }
+          }
         },
-        "RegisterModalEmailAtTheBottom": {
-          "enabled": true
-        }
+        "durationOptions": [
+          {
+            "label": "1 day",
+            "value": "1"
+          },
+          {
+            "label": "7 days",
+            "value": "7"
+          },
+          {
+            "label": "30 days",
+            "value": "30"
+          },
+          {
+            "label": "6 months",
+            "value": "180"
+          }
+        ]
       }
     },
     "pages": {
@@ -292,7 +355,7 @@
                           }
                         },
                         "Auctions": {
-                          "enabled": true,
+                          "enabled": false,
                           "props": {
                             "path": "orders/auctions"
                           }
@@ -309,7 +372,7 @@
                           }
                         },
                         "Auctions": {
-                          "enabled": true,
+                          "enabled": false,
                           "props": {
                             "path": "listings/auctions"
                           }
@@ -320,7 +383,7 @@
                       "enabled": true,
                       "props": {
                         "History": {
-                          "enabled": false,
+                          "enabled": true,
                           "props": {
                             "path": "other/history"
                           }
@@ -332,9 +395,9 @@
               }
             },
             "Nfts": {
-              "enabled": false,
+              "enabled": true,
               "props": {
-                "path": "parsells"
+                "path": "mynfts"
               }
             }
           }
@@ -348,13 +411,71 @@
             "General": {
               "enabled": true,
               "props": {
-                "path": "/settings"
+                "path": "/settings",
+                "fields": {
+                  "userName": {
+                    "enabled": true,
+                    "props": {
+                      "required": false
+                    }
+                  },
+                  "firstName": {
+                    "enabled": true,
+                    "props": {
+                      "required": false
+                    }
+                  },
+                  "lastName": {
+                    "enabled": true,
+                    "props": {
+                      "required": false
+                    }
+                  },
+                  "email": {
+                    "enabled": true,
+                    "props": {
+                      "required": true
+                    }
+                  },
+                  "bio": {
+                    "enabled": true,
+                    "props": {
+                      "required": false
+                    }
+                  }
+                }
               }
             },
             "SocialMedia": {
               "enabled": true,
               "props": {
-                "path": "/settings/social-media"
+                "path": "/settings/social-media",
+                "fields": {
+                  "facebook": {
+                    "enabled": false
+                  },
+                  "twitter": {
+                    "enabled": true
+                  },
+                  "instagram": {
+                    "enabled": true
+                  },
+                  "linkedin": {
+                    "enabled": true
+                  },
+                  "telegram": {
+                    "enabled": true
+                  },
+                  "medium": {
+                    "enabled": true
+                  },
+                  "discord": {
+                    "enabled": false
+                  },
+                  "personalWebsite": {
+                    "enabled": true
+                  }
+                }
               }
             }
           }
@@ -429,7 +550,7 @@
         }
       },
       "Collection": {
-        "enabled": false,
+        "enabled": true,
         "props": {
           "path": "/collection/:collectionAddress",
           "pages": {
@@ -442,14 +563,14 @@
             "Nfts": {
               "enabled": true,
               "props": {
-                "path": "parsells"
+                "path": "nfts"
               }
             }
           }
         }
       },
       "NFT": {
-        "enabled": false,
+        "enabled": true,
         "props": {
           "path": "/asset/:collectionAddress/:tokenId"
         }

@@ -10,14 +10,6 @@
     "Theme": {
       "enabled": false
     },
-    "graphicalChart": {
-      "errorButtonRed": {
-        "enabled": true
-      },
-      "errorButtonPrimary": {
-        "enabled": false
-      }
-    },
     "Marketplace": {
       "primary": {
         "enabled": true
@@ -128,11 +120,40 @@
             }
           }
         },
-        "PrivacyPolicy": {
-          "enabled": true
+        "policies": {
+          "enabled": true, 
+          "props": {
+            "PrivacyPolicy": {
+              "enabled": true, 
+              "I18nKey": "privacy_policy"
+            },
+            "TermsOfService": {
+              "enabled": true,
+              "I18nKey": "terms_of_service"
+            },
+            "LegalNotice": {
+              "enabled": true,
+              "I18nKey": "legal_notice"
+            }
+          }
         },
-        "TermsOfService": {
-          "enabled": true
+        "moreInfoLink": {
+          "enabled": true, 
+          "props": {
+            "ContactUs": {
+              "enabled": true, 
+              "I18nKey": "contact_us",
+              "path": "https://notionforms.io/forms/contact-us-169"
+            },
+            "FAQ": {
+              "enabled": true, 
+              "I18nKey": "FAQ",
+              "path": "/"
+            }
+          }
+        },
+        "Market": {
+          "enabled": false
         }
       }
     },
@@ -180,7 +201,7 @@
           "enabled": true
         },
         "CreateAuction": {
-          "enabled": false
+          "enabled": true
         },
         "hasAuctionAndFixedPricePurchase": {
           "enabled": false
@@ -188,11 +209,35 @@
         "hasCurrencySymbolDisplayed": {
           "enabled": false
         },
-        "RegisterModalEmailAtTheTop": {
-          "enabled": false
-        },
-        "RegisterModalEmailAtTheBottom": {
-          "enabled": true
+        "RegisterModal": {
+          "props": {
+            "fields": {
+              "email": {
+                "enabled": true,
+                "props" : {
+                  "required": true
+                }
+              },
+              "userName": {
+                "enabled": true,
+                "props" : {
+                  "required": false
+                }
+              },
+              "lastName": {
+                "enabled": false,
+                "props" : {
+                  "required": false
+                }
+              },
+              "firstName": {
+                "enabled": false,
+                "props" : {
+                  "required": false
+                }
+              }
+            }
+          }
         },
         "durationOptions": [
           {
@@ -228,7 +273,7 @@
         }
       },
       "Launches": {
-        "enabled": true,
+        "enabled": false,
         "props": {
           "path": "/",
           "pages": {
@@ -310,7 +355,7 @@
                           }
                         },
                         "Auctions": {
-                          "enabled": true,
+                          "enabled": false,
                           "props": {
                             "path": "orders/auctions"
                           }
@@ -327,7 +372,7 @@
                           }
                         },
                         "Auctions": {
-                          "enabled": true,
+                          "enabled": false,
                           "props": {
                             "path": "listings/auctions"
                           }
@@ -352,7 +397,7 @@
             "Nfts": {
               "enabled": true,
               "props": {
-                "path": "parsells"
+                "path": "mynfts"
               }
             }
           }
@@ -366,13 +411,71 @@
             "General": {
               "enabled": true,
               "props": {
-                "path": "/settings"
+                "path": "/settings",
+                "fields": {
+                  "userName": {
+                    "enabled": true,
+                    "props": {
+                      "required": false
+                    }
+                  },
+                  "firstName": {
+                    "enabled": true,
+                    "props": {
+                      "required": false
+                    }
+                  },
+                  "lastName": {
+                    "enabled": true,
+                    "props": {
+                      "required": false
+                    }
+                  },
+                  "email": {
+                    "enabled": true,
+                    "props": {
+                      "required": true
+                    }
+                  },
+                  "bio": {
+                    "enabled": true,
+                    "props": {
+                      "required": false
+                    }
+                  }
+                }
               }
             },
             "SocialMedia": {
               "enabled": true,
               "props": {
-                "path": "/settings/social-media"
+                "path": "/settings/social-media",
+                "fields": {
+                  "facebook": {
+                    "enabled": false
+                  },
+                  "twitter": {
+                    "enabled": true
+                  },
+                  "instagram": {
+                    "enabled": true
+                  },
+                  "linkedin": {
+                    "enabled": true
+                  },
+                  "telegram": {
+                    "enabled": true
+                  },
+                  "medium": {
+                    "enabled": true
+                  },
+                  "discord": {
+                    "enabled": false
+                  },
+                  "personalWebsite": {
+                    "enabled": true
+                  }
+                }
               }
             }
           }
@@ -460,7 +563,7 @@
             "Nfts": {
               "enabled": true,
               "props": {
-                "path": "parsells"
+                "path": "nfts"
               }
             }
           }

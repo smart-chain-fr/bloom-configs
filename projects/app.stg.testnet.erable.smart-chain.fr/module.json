@@ -201,7 +201,7 @@
           "enabled": true
         },
         "CreateAuction": {
-          "enabled": false
+          "enabled": true
         },
         "hasAuctionAndFixedPricePurchase": {
           "enabled": false
@@ -213,16 +213,28 @@
           "props": {
             "fields": {
               "email": {
-                "enabled": true
+                "enabled": true,
+                "props" : {
+                  "required": true
+                }
               },
               "userName": {
-                "enabled": true
+                "enabled": true,
+                "props" : {
+                  "required": false
+                }
               },
               "lastName": {
-                "enabled": false
+                "enabled": false,
+                "props" : {
+                  "required": false
+                }
               },
               "firstName": {
-                "enabled": false
+                "enabled": false,
+                "props" : {
+                  "required": false
+                }
               }
             }
           }
@@ -404,7 +416,7 @@
                   "userName": {
                     "enabled": true,
                     "props": {
-                      "required": true
+                      "required": false
                     }
                   },
                   "firstName": {
