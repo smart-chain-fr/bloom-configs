@@ -562,6 +562,23 @@
         "enabled": true,
         "props": {
           "path": "/collection/:collectionAddress",
+          "stats": {
+            "totalSupply": {
+              "enabled": true
+            },
+            "uniqueHolders": {
+              "enabled": true
+            },
+            "floorPrice": {
+              "enabled": false
+            },
+            "exchangedVolume": {
+              "enabled": false
+            },
+            "royalties": {
+              "enabled": true
+            }
+          },
           "pages": {
             "Activities": {
               "enabled": true,

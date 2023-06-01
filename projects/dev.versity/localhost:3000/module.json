@@ -256,9 +256,9 @@
             "label": "1 month",
             "value": "30"
           }
-        ], 
+        ],
         "verificationModal": {
-          "enabled": true, 
+          "enabled": true,
           "props": {
             "copyPasteButton": {
               "enabled": true
@@ -559,6 +559,23 @@
       },
       "Collection": {
         "enabled": true,
+        "stats": {
+          "totalSupply": {
+            "enabled": true
+          },
+          "uniqueHolders": {
+            "enabled": true
+          },
+          "floorPrice": {
+            "enabled": true
+          },
+          "exchangedVolume": {
+            "enabled": true
+          },
+          "royalties": {
+            "enabled": true
+          }
+        },
         "props": {
           "path": "/collection/:collectionAddress",
           "pages": {

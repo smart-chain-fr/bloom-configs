@@ -217,25 +217,25 @@
             "fields": {
               "email": {
                 "enabled": true,
-                "props" : {
+                "props": {
                   "required": true
                 }
               },
               "userName": {
                 "enabled": true,
-                "props" : {
+                "props": {
                   "required": true
                 }
               },
               "lastName": {
                 "enabled": true,
-                "props" : {
+                "props": {
                   "required": true
                 }
               },
               "firstName": {
                 "enabled": true,
-                "props" : {
+                "props": {
                   "required": true
                 }
               }
@@ -259,9 +259,9 @@
             "label": "1 month",
             "value": "30"
           }
-        ], 
+        ],
         "verificationModal": {
-          "enabled": true, 
+          "enabled": true,
           "props": {
             "copyPasteButton": {
               "enabled": true
@@ -562,6 +562,23 @@
       },
       "Collection": {
         "enabled": true,
+        "stats": {
+          "totalSupply": {
+            "enabled": true
+          },
+          "uniqueHolders": {
+            "enabled": true
+          },
+          "floorPrice": {
+            "enabled": false
+          },
+          "exchangedVolume": {
+            "enabled": false
+          },
+          "royalties": {
+            "enabled": true
+          }
+        },
         "props": {
           "path": "/collection/:collectionAddress",
           "pages": {

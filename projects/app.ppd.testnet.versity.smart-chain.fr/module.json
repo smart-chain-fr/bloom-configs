@@ -460,6 +460,23 @@
       },
       "Collection": {
         "enabled": false,
+        "stats": {
+          "totalSupply": {
+            "enabled": true
+          },
+          "uniqueHolders": {
+            "enabled": true
+          },
+          "floorPrice": {
+            "enabled": false
+          },
+          "exchangedVolume": {
+            "enabled": false
+          },
+          "royalties": {
+            "enabled": true
+          }
+        },
         "props": {
           "path": "/collection/:collectionAddress",
           "pages": {
