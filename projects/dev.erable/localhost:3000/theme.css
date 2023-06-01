@@ -121,8 +121,7 @@
   --border-radius-collection-card-img: 8px;
   --border-collection-card-img: 4px solid var(--color-neutral-50);
   --font-color-collection-card: var(--color-neutral-50);
-  --filter-banner-collection-card: blur(128px);
-
+  --filter-banner-collection-card: blur(10px) opacity(0.3);
   /* MARKET PREVIEW */
   --border-market-preview: 2px solid var(--color-neutral-900);
   --border-radius-market-preview: "none";
