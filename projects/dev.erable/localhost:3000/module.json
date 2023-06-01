@@ -272,7 +272,10 @@
       "Home": {
         "enabled": false,
         "props": {
-          "path": { "pathname": "/", "hash": "#" }
+          "path": {
+            "pathname": "/",
+            "hash": "#"
+          }
         }
       },
       "Launchpad": {
@@ -560,25 +563,25 @@
       },
       "Collection": {
         "enabled": true,
+        "stats": {
+          "totalSupply": {
+            "enabled": true
+          },
+          "uniqueHolders": {
+            "enabled": true
+          },
+          "floorPrice": {
+            "enabled": true
+          },
+          "exchangedVolume": {
+            "enabled": true
+          },
+          "royalties": {
+            "enabled": true
+          }
+        },
         "props": {
           "path": "/collection/:collectionAddress",
-          "stats": {
-            "totalSupply": {
-              "enabled": true
-            },
-            "uniqueHolders": {
-              "enabled": true
-            },
-            "floorPrice": {
-              "enabled": true
-            },
-            "exchangedVolume": {
-              "enabled": true
-            },
-            "royalties": {
-              "enabled": true
-            }
-          },
           "pages": {
             "Nfts": {
               "enabled": true,
