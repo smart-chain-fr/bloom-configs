@@ -1,6 +1,6 @@
 {
   "app": "erable",
-  "domain": "smart-chain.fr",
+  "domain": "erable.com",
   "roundedDecimals": "4",
   "defaultTheme": "light",
   "languages": {
@@ -209,7 +209,7 @@
     "binance": "https://api.binance.com/api/v3"
   },
   "socket": {
-    "url": "https://exchange-websocket-ubcjtylcra-ez.a.run.app"
+    "url": "https://ws.bloom-exchange-smart-chain.fr"
   },
   "sentry": {
     "enabled": true,
