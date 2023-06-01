@@ -16,7 +16,7 @@
     "ethereum": {
       "infuraId": "1e53a3471c1d44db95ffa97cb16b3d85",
       "rpc": "https://polygon-bor.publicnode.com",
-      "network": "polygon",
+      "network": "matic",
       "name": "Polygon",
       "blockExplorer": "https://polygonscan.com/",
       "chainId": 137,
