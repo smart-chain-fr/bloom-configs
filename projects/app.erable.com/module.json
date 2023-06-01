@@ -10,27 +10,19 @@
     "Theme": {
       "enabled": false
     },
-    "graphicalChart": {
-      "errorButtonRed": {
-        "enabled": true
-      },
-      "errorButtonPrimary": {
-        "enabled": false
-      }
-    },
     "Marketplace": {
       "primary": {
-        "enabled": false
+        "enabled": true
       },
       "secondary": {
-        "enabled": false
+        "enabled": true
       }
     },
     "NFT": {
       "enabled": true,
       "props": {
         "hover": {
-          "enabled": false
+          "enabled": true
         }
       }
     },
@@ -121,18 +113,48 @@
           "enabled": true,
           "props": {
             "NewsletterLink": {
-              "enabled": false
+              "enabled": true,
+              "path": "https://495c7097.sibforms.com/serve/MUIEAHk43dNWFjXuiwDQpYH5BQchOV103vh5UXpBy_QFLS4t-7_mltNTFkUh4rF29G-lq_v1KK0DDe2pUouBMRWIXulQzViRtP5cAY7aEDa4c1AWX2BugrIGGqNoVPC4QZbIPf7hScQw-gLKG11m-wUIqxYGUuY2Uh8Ko9A9R7nOkXn-ZdjR9p3zht6_baSvNrfO4IviqcVBsG9e"
             },
             "NewsletterInput": {
-              "enabled": true
+              "enabled": false
             }
           }
         },
-        "PrivacyPolicy": {
-          "enabled": true
+        "policies": {
+          "enabled": true,
+          "props": {
+            "PrivacyPolicy": {
+              "enabled": true,
+              "I18nKey": "privacy_policy"
+            },
+            "TermsOfService": {
+              "enabled": true,
+              "I18nKey": "terms_of_service"
+            },
+            "LegalNotice": {
+              "enabled": true,
+              "I18nKey": "legal_notice"
+            }
+          }
         },
-        "TermsOfService": {
-          "enabled": true
+        "moreInfoLink": {
+          "enabled": true,
+          "props": {
+            "ContactUs": {
+              "enabled": true,
+              "I18nKey": "contact_us",
+              "path": "https://notionforms.io/forms/contact-us-169"
+            },
+            "FAQ": {
+              "enabled": true,
+              "I18nKey": "FAQ",
+              "path": "/"
+            }
+          }
+        },
+        "Market": {
+          "enabled": false
         }
       }
     },
@@ -177,10 +199,10 @@
     "Modals": {
       "props": {
         "AddFunds": {
-          "enabled": false
+          "enabled": true
         },
         "CreateAuction": {
-          "enabled": false
+          "enabled": true
         },
         "hasAuctionAndFixedPricePurchase": {
           "enabled": false
@@ -188,17 +210,67 @@
         "hasCurrencySymbolDisplayed": {
           "enabled": false
         },
-        "RegisterModalEmailAtTheTop": {
-          "enabled": false
+        "RegisterModal": {
+          "props": {
+            "fields": {
+              "email": {
+                "enabled": true,
+                "props": {
+                  "required": true
+                }
+              },
+              "userName": {
+                "enabled": true,
+                "props": {
+                  "required": false
+                }
+              },
+              "lastName": {
+                "enabled": false,
+                "props": {
+                  "required": false
+                }
+              },
+              "firstName": {
+                "enabled": false,
+                "props": {
+                  "required": false
+                }
+              }
+            }
+          }
         },
-        "RegisterModalEmailAtTheBottom": {
-          "enabled": true
+        "durationOptions": [
+          {
+            "label": "1 day",
+            "value": "1"
+          },
+          {
+            "label": "7 days",
+            "value": "7"
+          },
+          {
+            "label": "30 days",
+            "value": "30"
+          },
+          {
+            "label": "6 months",
+            "value": "180"
+          }
+        ],
+        "verificationModal": {
+          "enabled": true,
+          "props": {
+            "copyPasteButton": {
+              "enabled": false
+            }
+          }
         }
       }
     },
     "pages": {
       "Home": {
-        "enabled": true,
+        "enabled": false,
         "props": {
           "path": { "pathname": "/", "hash": "#" }
         }
@@ -206,13 +278,13 @@
       "Launchpad": {
         "enabled": false,
         "props": {
-          "path": "/launchpad"
+          "path": "/"
         }
       },
       "Launches": {
         "enabled": false,
         "props": {
-          "path": "/launches",
+          "path": "/",
           "pages": {
             "InMint": {
               "enabled": true,
@@ -235,7 +307,7 @@
       "Market": {
         "enabled": false,
         "props": {
-          "path": "/market",
+          "path": "/",
           "pages": {
             "All": {
               "enabled": true,
@@ -292,7 +364,7 @@
                           }
                         },
                         "Auctions": {
-                          "enabled": true,
+                          "enabled": false,
                           "props": {
                             "path": "orders/auctions"
                           }
@@ -309,7 +381,7 @@
                           }
                         },
                         "Auctions": {
-                          "enabled": true,
+                          "enabled": false,
                           "props": {
                             "path": "listings/auctions"
                           }
@@ -320,7 +392,7 @@
                       "enabled": true,
                       "props": {
                         "History": {
-                          "enabled": false,
+                          "enabled": true,
                           "props": {
                             "path": "other/history"
                           }
@@ -332,9 +404,9 @@
               }
             },
             "Nfts": {
-              "enabled": false,
+              "enabled": true,
               "props": {
-                "path": "parsells"
+                "path": "mynfts"
               }
             }
           }
@@ -348,44 +420,102 @@
             "General": {
               "enabled": true,
               "props": {
-                "path": "/settings"
+                "path": "/settings",
+                "fields": {
+                  "userName": {
+                    "enabled": true,
+                    "props": {
+                      "required": false
+                    }
+                  },
+                  "firstName": {
+                    "enabled": true,
+                    "props": {
+                      "required": false
+                    }
+                  },
+                  "lastName": {
+                    "enabled": true,
+                    "props": {
+                      "required": false
+                    }
+                  },
+                  "email": {
+                    "enabled": true,
+                    "props": {
+                      "required": true
+                    }
+                  },
+                  "bio": {
+                    "enabled": true,
+                    "props": {
+                      "required": false
+                    }
+                  }
+                }
               }
             },
             "SocialMedia": {
               "enabled": true,
               "props": {
-                "path": "/settings/social-media"
+                "path": "/settings/social-media",
+                "fields": {
+                  "facebook": {
+                    "enabled": false
+                  },
+                  "twitter": {
+                    "enabled": true
+                  },
+                  "instagram": {
+                    "enabled": true
+                  },
+                  "linkedin": {
+                    "enabled": true
+                  },
+                  "telegram": {
+                    "enabled": true
+                  },
+                  "medium": {
+                    "enabled": true
+                  },
+                  "discord": {
+                    "enabled": false
+                  },
+                  "personalWebsite": {
+                    "enabled": true
+                  }
+                }
               }
             }
           }
         }
       },
       "Components": {
-        "enabled": true,
+        "enabled": false,
         "props": {
           "path": "/components"
         },
         "pages": {
           "Buttons": {
-            "enabled": true,
+            "enabled": false,
             "props": {
               "path": "/components/buttons"
             }
           },
           "Shadows": {
-            "enabled": true,
+            "enabled": false,
             "props": {
               "path": "/components/shadows"
             }
           },
           "Typographies": {
-            "enabled": true,
+            "enabled": false,
             "props": {
               "path": "/components/typographies"
             }
           },
           "Inputs": {
-            "enabled": true,
+            "enabled": false,
             "props": {
               "path": "/components/inputs"
             }
@@ -397,31 +527,31 @@
             }
           },
           "Tags": {
-            "enabled": true,
+            "enabled": false,
             "props": {
               "path": "/components/tags"
             }
           },
           "Modals": {
-            "enabled": true,
+            "enabled": false,
             "props": {
               "path": "/components/modals"
             }
           },
           "Tabs": {
-            "enabled": true,
+            "enabled": false,
             "props": {
               "path": "/components/tabs"
             }
           },
           "NFTComponent": {
-            "enabled": true,
+            "enabled": false,
             "props": {
               "path": "/components/NFTComponent"
             }
           },
           "Other": {
-            "enabled": true,
+            "enabled": false,
             "props": {
               "path": "/components/other"
             }
@@ -429,7 +559,7 @@
         }
       },
       "Collection": {
-        "enabled": false,
+        "enabled": true,
         "props": {
           "path": "/collection/:collectionAddress",
           "pages": {
@@ -442,14 +572,14 @@
             "Nfts": {
               "enabled": true,
               "props": {
-                "path": "parsells"
+                "path": "nfts"
               }
             }
           }
         }
       },
       "NFT": {
-        "enabled": false,
+        "enabled": true,
         "props": {
           "path": "/asset/:collectionAddress/:tokenId"
         }

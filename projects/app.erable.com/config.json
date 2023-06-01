@@ -15,8 +15,8 @@
     "type": "ethereum",
     "ethereum": {
       "infuraId": "1e53a3471c1d44db95ffa97cb16b3d85",
-      "rpc": "https://polygon-mumbai-bor.publicnode.com",
-      "network": "matic",
+      "rpc": "https://polygon-bor.publicnode.com",
+      "network": "polygon",
       "name": "Polygon",
       "blockExplorer": "https://polygonscan.com/",
       "chainId": 137,
@@ -204,12 +204,12 @@
   ],
   "api": {
     "rootUrl": "{{origin}}/api",
-    "back": "https://api.prod.versity.smart-chain.fr/api",
+    "back": "https://api.bloom-exchange.smart-chain.fr/api",
     "coingecko": "https://api.coingecko.com/api/v3",
     "binance": "https://api.binance.com/api/v3"
   },
   "socket": {
-    "url": "TODO"
+    "url": "https://exchange-websocket-ubcjtylcra-ez.a.run.app"
   },
   "sentry": {
     "enabled": true,

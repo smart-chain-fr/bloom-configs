@@ -128,10 +128,39 @@
             }
           }
         },
-        "PrivacyPolicy": {
-          "enabled": true
+        "policies": {
+          "enabled": true,
+          "props": {
+            "PrivacyPolicy": {
+              "enabled": true,
+              "I18nKey": "privacy_policy"
+            },
+            "TermsOfService": {
+              "enabled": true,
+              "I18nKey": "terms_of_service"
+            },
+            "LegalNotice": {
+              "enabled": false,
+              "I18nKey": "legal_notice"
+            }
+          }
         },
-        "TermsOfService": {
+        "moreInfoLink": {
+          "enabled": false,
+          "props": {
+            "ContactUs": {
+              "enabled": false,
+              "I18nKey": "contact_us",
+              "path": "/"
+            },
+            "FAQ": {
+              "enabled": false,
+              "I18nKey": "FAQ",
+              "path": "/"
+            }
+          }
+        },
+        "Market": {
           "enabled": true
         }
       }
@@ -361,67 +390,67 @@
         }
       },
       "Components": {
-        "enabled": true,
+        "enabled": false,
         "props": {
           "path": "/components"
         },
         "pages": {
           "Buttons": {
-            "enabled": true,
+            "enabled": false,
             "props": {
               "path": "/components/buttons"
             }
           },
           "Shadows": {
-            "enabled": true,
+            "enabled": false,
             "props": {
               "path": "/components/shadows"
             }
           },
           "Typographies": {
-            "enabled": true,
+            "enabled": false,
             "props": {
               "path": "/components/typographies"
             }
           },
           "Inputs": {
-            "enabled": true,
+            "enabled": false,
             "props": {
               "path": "/components/inputs"
             }
           },
           "ProgressBars": {
-            "enabled": true,
+            "enabled": false,
             "props": {
               "path": "/components/progressbars"
             }
           },
           "Tags": {
-            "enabled": true,
+            "enabled": false,
             "props": {
               "path": "/components/tags"
             }
           },
           "Modals": {
-            "enabled": true,
+            "enabled": false,
             "props": {
               "path": "/components/modals"
             }
           },
           "Tabs": {
-            "enabled": true,
+            "enabled": false,
             "props": {
               "path": "/components/tabs"
             }
           },
           "NFTComponent": {
-            "enabled": true,
+            "enabled": false,
             "props": {
               "path": "/components/NFTComponent"
             }
           },
           "Other": {
-            "enabled": true,
+            "enabled": false,
             "props": {
               "path": "/components/other"
             }

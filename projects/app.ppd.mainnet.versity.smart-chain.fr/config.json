@@ -15,7 +15,7 @@
     "type": "ethereum",
     "ethereum": {
       "infuraId": "1e53a3471c1d44db95ffa97cb16b3d85",
-      "rpc": "https://polygon-mumbai-bor.publicnode.com",
+      "rpc": "https://polygon-bor.publicnode.com",
       "network": "matic",
       "name": "Polygon",
       "blockExplorer": "https://polygonscan.com/",
