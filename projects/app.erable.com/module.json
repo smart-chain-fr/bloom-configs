@@ -202,7 +202,7 @@
           "enabled": true
         },
         "CreateAuction": {
-          "enabled": true
+          "enabled": false
         },
         "hasAuctionAndFixedPricePurchase": {
           "enabled": false
@@ -337,9 +337,9 @@
         }
       },
       "Utilities": {
-        "enabled": true,
+        "enabled": false,
         "props": {
-          "path": "/utilities"
+          "path": "/"
         }
       },
       "Profile": {

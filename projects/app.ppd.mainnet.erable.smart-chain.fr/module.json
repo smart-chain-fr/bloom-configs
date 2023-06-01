@@ -202,7 +202,7 @@
           "enabled": true
         },
         "CreateAuction": {
-          "enabled": true
+          "enabled": false
         },
         "hasAuctionAndFixedPricePurchase": {
           "enabled": false
@@ -337,9 +337,9 @@
         }
       },
       "Utilities": {
-        "enabled": true,
+        "enabled": false,
         "props": {
-          "path": "/utilities"
+          "path": "/"
         }
       },
       "Profile": {
@@ -491,31 +491,31 @@
         }
       },
       "Components": {
-        "enabled": true,
+        "enabled": false,
         "props": {
           "path": "/components"
         },
         "pages": {
           "Buttons": {
-            "enabled": true,
+            "enabled": false,
             "props": {
               "path": "/components/buttons"
             }
           },
           "Shadows": {
-            "enabled": true,
+            "enabled": false,
             "props": {
               "path": "/components/shadows"
             }
           },
           "Typographies": {
-            "enabled": true,
+            "enabled": false,
             "props": {
               "path": "/components/typographies"
             }
           },
           "Inputs": {
-            "enabled": true,
+            "enabled": false,
             "props": {
               "path": "/components/inputs"
             }
@@ -527,31 +527,31 @@
             }
           },
           "Tags": {
-            "enabled": true,
+            "enabled": false,
             "props": {
               "path": "/components/tags"
             }
           },
           "Modals": {
-            "enabled": true,
+            "enabled": false,
             "props": {
               "path": "/components/modals"
             }
           },
           "Tabs": {
-            "enabled": true,
+            "enabled": false,
             "props": {
               "path": "/components/tabs"
             }
           },
           "NFTComponent": {
-            "enabled": true,
+            "enabled": false,
             "props": {
               "path": "/components/NFTComponent"
             }
           },
           "Other": {
-            "enabled": true,
+            "enabled": false,
             "props": {
               "path": "/components/other"
             }
