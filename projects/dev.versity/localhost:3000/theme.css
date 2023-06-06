@@ -76,6 +76,7 @@
   --font-weight-bold: 700;
   --font-weight-extrabold: 900;
   --color-primary: var(--color-primary-500);
+  --color-typo-secondary: var(--color-secondary-900);
 
   /* LINEAR GRADIENTS */
   --linear-gradient: linear-gradient(90deg, var(--color-secondary-300) 0%, var(--color-secondary-900) 100%);
