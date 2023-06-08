@@ -229,7 +229,7 @@
   --tag-not-eligible-background: var(--color-error-200);
   --tag-not-eligible-color: var(--color-error-700);
   --tag-border-sale: 1px solid var(--color-neutral-300);
-  --tag-color-sold: var(--tag-main-color);
+  --tag-color-sold: white;
 
   /* FILTER */
   --select-filter-background: var(--color-generic-background);
