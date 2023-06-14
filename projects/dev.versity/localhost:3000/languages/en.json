@@ -29,7 +29,13 @@
     "nfts": "nfts",
     "results": "results",
     "duration": "Duration",
-    "project_link": "Know more about {{project_link}}"
+    "project_link": "Know more about {{project_link}}",
+    "total_price": "Total price",
+    "quantity": "Quantity",
+    "free": "Free",
+    "mint_schedule": "Mint schedule",
+    "limit": "Limit",
+    "per_wallet": "per wallet"
   },
   "header": {
     "send": "Send",
@@ -107,8 +113,8 @@
           "title": "Parsells"
         },
         "activities": {
-					"my_title": "My Activities",
-					"title": "Activities",
+          "my_title": "My Activities",
+          "title": "Activities",
           "menu": {
             "options": {
               "orders": {
@@ -293,7 +299,7 @@
       "amount": "Amount",
       "left_tip": "Tip: Simple caption text here",
       "right_tip": "Amount available",
-      "alert_no_token_available" : "You don't have any token to send",
+      "alert_no_token_available": "You don't have any token to send",
       "buy_token": "Buy tokens to see them here"
     },
     "confirm": {
@@ -408,7 +414,11 @@
     "info": {
       "whitelisted": "You've been whitelisted",
       "not_whitelisted": "You are not whitelisted",
-      "highest_bidder": "You are the highest bidder"
+      "highest_bidder": "You are the highest bidder",
+      "mint_limit_reached": "Mint limit reached",
+      "mint_limit_reached_explanation": "Allocation exhausted",
+      "sales_coming_soon": "Sales coming soon",
+      "mint_closed": "Mint closed"
     },
     "action": {
       "cancel_listing": "Cancel listing",
