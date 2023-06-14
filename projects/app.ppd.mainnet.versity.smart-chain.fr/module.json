@@ -485,6 +485,12 @@
                 "path": "activities"
               }
             },
+            "ProjectInfo": {
+              "enabled": true,
+              "props": {
+                "path": "project-info"
+              }
+            },
             "Nfts": {
               "enabled": true,
               "props": {
