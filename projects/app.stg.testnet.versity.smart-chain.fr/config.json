@@ -209,6 +209,10 @@
       }
     }
   ],
+  "wert": {
+    "partnerId": "01GKHBF6FN15906Z919DA9YTE5",
+    "origin": "https://sandbox.wert.io"
+  },
   "api": {
     "rootUrl": "{{origin}}/api",
     "back": "https://api.stg.testnet.bloom-exchange.smart-chain.fr/api",

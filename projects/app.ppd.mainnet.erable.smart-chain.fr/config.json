@@ -202,6 +202,10 @@
       }
     }
   ],
+  "wert": {
+    "partnerId": "XXX",
+    "origin": "https://widget.wert.io"
+  },
   "api": {
     "rootUrl": "{{origin}}/api",
     "back": "https://api.ppd.mainnet.bloom-exchange.smart-chain.fr/api",
