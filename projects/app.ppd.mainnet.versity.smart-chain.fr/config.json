@@ -129,6 +129,9 @@
       "web3Auth": {
         "network": "mainnet",
         "clientId": ""
+      },
+      "magicConnect" : {
+        "apiKey": "pk_live_E4AC331028DE7722"
       }
     },
     "tezos": {
@@ -203,7 +206,7 @@
     }
   ],
   "wert": {
-    "partnerId": "XXX",
+    "partnerId": "01H31JY8J2ZM69842J15WW0RND",
     "origin": "https://widget.wert.io"
   },
   "api": {

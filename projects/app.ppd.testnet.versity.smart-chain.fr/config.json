@@ -129,6 +129,9 @@
       "web3Auth": {
         "network": "testnet",
         "clientId": "BG32-nRu1lwgARBRW_bUhYLJrlIpJYXIdn1Ukwm27xYsJ89AdDGcq0raiLDcpjpH5cptiLcuKlYclkSd5ZpY0K4"
+      },
+      "magicConnect" : {
+        "apiKey": "pk_live_E4AC331028DE7722"
       }
     },
     "tezos": {
