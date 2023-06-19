@@ -206,6 +206,7 @@
     }
   ],
   "wert": {
+    "network": "polygon",
     "partnerId": "01H31JY8J2ZM69842J15WW0RND",
     "origin": "https://widget.wert.io"
   },

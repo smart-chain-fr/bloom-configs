@@ -206,6 +206,7 @@
     }
   ],
   "wert": {
+    "network": "mumbai",
     "partnerId": "01GKHBF6FN15906Z919DA9YTE5",
     "origin": "https://sandbox.wert.io"
   },
