@@ -30,7 +30,7 @@
       "enabled": false
     },
     "PaymentCreditCard": {
-      "enabled": false
+      "enabled": true
     },
     "PaymentCrypto": {
       "enabled": true
