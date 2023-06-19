@@ -583,16 +583,22 @@
         "props": {
           "path": "/collection/:collectionAddress",
           "pages": {
-            "Nfts": {
-              "enabled": true,
-              "props": {
-                "path": "nfts"
-              }
-            },
             "Activities": {
               "enabled": true,
               "props": {
                 "path": "activities"
+              }
+            },
+            "ProjectInfo": {
+              "enabled": true,
+              "props": {
+                "path": "project-info"
+              }
+            },
+            "Nfts": {
+              "enabled": true,
+              "props": {
+                "path": "nfts"
               }
             }
           }
