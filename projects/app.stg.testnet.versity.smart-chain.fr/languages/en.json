@@ -145,6 +145,10 @@
             "execute_buy_now": "Bought",
             "transfered": "Transfered"
           }
+        },
+        "project_info": {
+          "my_title": "My Project Infos",
+          "title": "Project Infos"
         }
       }
     },
