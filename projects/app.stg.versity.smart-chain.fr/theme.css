@@ -129,6 +129,7 @@
   --box-shadow-market-preview: none;
   --background-color-market-preview: rgba(17, 24, 39, 0.3);
   --background-color-mint-plus-minus-button: rgba(17, 24, 39, 0.3);
+  --background-color-mint-plus-minus-value: rgba(17, 24, 39, 0.3);
   --background-color-market-preview-hover: rgba(17, 24, 39, 0.5);
   --owner-typo-color: var(--color-neutral-50);
 

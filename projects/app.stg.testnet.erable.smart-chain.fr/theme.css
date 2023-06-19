@@ -127,7 +127,8 @@
   --border-radius-market-preview: "none";
   --box-shadow-market-preview: 3px 3px 0px #dcccff;
   --background-color-market-preview: var(--color-generic-white);
-  --background-color-mint-plus-minus-button: var(--color-generic-white);
+  --background-color-mint-plus-minus-button: transparent;
+  --background-color-mint-plus-minus-value: var(--color-generic-white);
   --background-color-market-preview-hover: var(--color-neutral-100);
   --owner-typo-color: var(--color-neutral-900);
 
