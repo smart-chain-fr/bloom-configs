@@ -18,7 +18,7 @@
     "type": "ethereum",
     "ethereum": {
       "infuraId": "1e53a3471c1d44db95ffa97cb16b3d85",
-      "rpc": "https://polygon-mumbai-bor.publicnode.com",
+      "rpc": "https://rpc-mumbai.maticvigil.com/",
       "network": "mumbai",
       "name": "Polygon Testnet",
       "blockExplorer": "https://mumbai.polygonscan.com/",
@@ -133,7 +133,7 @@
         "network": "testnet",
         "clientId": "BG32-nRu1lwgARBRW_bUhYLJrlIpJYXIdn1Ukwm27xYsJ89AdDGcq0raiLDcpjpH5cptiLcuKlYclkSd5ZpY0K4"
       },
-      "magicConnect" : {
+      "magicConnect": {
         "apiKey": "pk_live_418BBDE67EA22D92"
       }
     },

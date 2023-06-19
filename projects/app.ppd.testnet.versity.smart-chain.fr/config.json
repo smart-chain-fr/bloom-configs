@@ -5,7 +5,10 @@
   "defaultTheme": "dark",
   "languages": {
     "default": "en",
-    "available": ["en", "fr"]
+    "available": [
+      "en",
+      "fr"
+    ]
   },
   "head": {
     "description": "A marketplace dedicated to the launch, exchange and monitoring of digital assets aimed at funding the ecological transition.",
@@ -15,7 +18,7 @@
     "type": "ethereum",
     "ethereum": {
       "infuraId": "1e53a3471c1d44db95ffa97cb16b3d85",
-      "rpc": "https://polygon-mumbai-bor.publicnode.com",
+      "rpc": "https://rpc-mumbai.maticvigil.com/",
       "network": "matic",
       "name": "Polygon Testnet",
       "blockExplorer": "https://mumbai.polygonscan.com/",
@@ -130,7 +133,7 @@
         "network": "testnet",
         "clientId": "BG32-nRu1lwgARBRW_bUhYLJrlIpJYXIdn1Ukwm27xYsJ89AdDGcq0raiLDcpjpH5cptiLcuKlYclkSd5ZpY0K4"
       },
-      "magicConnect" : {
+      "magicConnect": {
         "apiKey": "pk_live_418BBDE67EA22D92"
       }
     },
@@ -170,7 +173,11 @@
         }
       }
     },
-    { "version": "v2", "date": "2022/06/10 18:02:00", "pagesComingSoon": {} }
+    {
+      "version": "v2",
+      "date": "2022/06/10 18:02:00",
+      "pagesComingSoon": {}
+    }
   ],
   "defaultPhase": 1,
   "phases": [
