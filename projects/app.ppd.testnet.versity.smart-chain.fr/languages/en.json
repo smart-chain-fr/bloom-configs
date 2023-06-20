@@ -90,7 +90,8 @@
         "not_started": "Not started",
         "sold_out": "Sold out",
         "ended": "Ended",
-        "ends": "Ends in"
+        "ends": "Ends in",
+        "start": "Start in"
       },
       "action": {
         "explore_market": "Explore market",
