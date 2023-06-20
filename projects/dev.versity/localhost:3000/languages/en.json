@@ -198,6 +198,11 @@
         "sold_out": {
           "title": "Sold out"
         }
+      },
+      "collection_drop": {
+        "sale_comming_soon": "Sale comming soon",
+        "access_secondary_market": "Access the secondary market",
+        "mint": "Mint"
       }
     },
     "nft": {
