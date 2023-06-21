@@ -1,7 +1,7 @@
 {
   "common": {
     "Parsells_sold": "Parsells sold",
-    "connect_wallet": "Connect wallet",
+    "connect_wallet": "Sign In",
     "logout": "Logout",
     "new_creation": "New creation",
     "my_creations": "My creations",
@@ -348,8 +348,8 @@
     },
     "make_offer": {
       "title": "Make an offer",
-      "set_offer": "Set your offer’s price",
-      "action": "Make offer"
+      "set_offer": "Set your offer's price",
+      "action": "Make an offer"
     },
     "cancel_offer": {
       "title": "Cancel offer",
@@ -443,7 +443,7 @@
       "place_a_bid": "Place a bid",
       "go_marketplace_buy": "Shop the secondary",
       "to_settle": "To settle",
-      "make_offer": "Make offer",
+      "make_offer": "Make an offer",
       "list_for_sale": "List for sale"
     },
     "attribute": {
@@ -476,9 +476,9 @@
       "buy": "Buy now",
       "auction": "On auction",
       "new": "New",
-      "offer": "Has offer",
+      "offer": "Offer made",
       "sale": "On fixed price",
-      "noSale": "Not on sale"
+      "noSale": "Not for sale"
     },
     "event": {
       "all": "All",
