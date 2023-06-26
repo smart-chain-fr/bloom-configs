@@ -248,7 +248,12 @@
       "floor_price": "Floor price",
       "exchange_volume": "Exchanged volume",
       "royalties": "Royalties",
-      "search": "Search"
+      "search": "Search",
+      "phases": {
+        "free_mint": "Free mint",
+        "private_sale": "Private sale",
+        "public_sale": "Public sale"
+      }
     }
   },
   "toasts": {
