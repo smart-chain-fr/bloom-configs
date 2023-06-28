@@ -280,6 +280,9 @@
       },
       "Launchpad": {
         "enabled": true,
+        "BannerCarrousel": {
+          "enabled": true
+        },
         "props": {
           "path": "/launchpad"
         }
