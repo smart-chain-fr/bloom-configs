@@ -279,15 +279,15 @@
         }
       },
       "Launchpad": {
-        "enabled": false,
+        "enabled": true,
         "props": {
-          "path": "/"
+          "path": "/launchpad"
         }
       },
       "Launches": {
-        "enabled": false,
+        "enabled": true,
         "props": {
-          "path": "/",
+          "path": "/launches",
           "pages": {
             "InMint": {
               "enabled": true,
@@ -308,9 +308,9 @@
         }
       },
       "Market": {
-        "enabled": false,
+        "enabled": true,
         "props": {
-          "path": "/",
+          "path": "/market",
           "pages": {
             "All": {
               "enabled": true,
