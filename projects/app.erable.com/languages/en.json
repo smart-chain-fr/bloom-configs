@@ -346,7 +346,8 @@
       "need": "You need",
       "plus_gaz_fee": "+ gas fee",
       "description": "Transfer funds to you wallet or add funds with a card. It can take up to a minute for your balance to update.",
-      "add_funds_with_cards": "Add funds with card",
+      "add_funds_with_cards": "Add funds with my card",
+      "continue": "I will add funds by myself",
       "your": "Your",
       "wallet": "wallet",
       "balance": "Balance: "
