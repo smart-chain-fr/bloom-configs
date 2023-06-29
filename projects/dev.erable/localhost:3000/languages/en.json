@@ -433,7 +433,8 @@
       "mint_limit_reached": "Mint limit reached",
       "mint_limit_reached_explanation": "Allocation exhausted",
       "sales_coming_soon": "Sales coming soon",
-      "mint_closed": "Mint closed"
+      "mint_closed": "Mint closed",
+      "join_whitelist": "Join whitelist"
     },
     "action": {
       "cancel_listing": "Cancel listing",
