@@ -155,6 +155,9 @@
         },
         "Market": {
           "enabled": false
+        },
+        "Launchpad": {
+          "enabled": false
         }
       }
     },
