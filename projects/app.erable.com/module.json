@@ -45,7 +45,7 @@
           "enabled": false
         },
         "Market": {
-          "enabled": true
+          "enabled": false
         },
         "Utilities": {
           "enabled": true
@@ -281,25 +281,25 @@
       "Launchpad": {
         "enabled": false,
         "BannerCarrousel": {
-          "enabled": true
+          "enabled": false
         },
         "props": {
-          "path": "/"
+          "path": "/launchpad"
         }
       },
       "Launches": {
         "enabled": false,
         "props": {
-          "path": "/",
+          "path": "/launches",
           "pages": {
             "InMint": {
-              "enabled": true,
+              "enabled": false,
               "props": {
                 "path": "in-mint"
               }
             },
             "SoldOut": {
-              "enabled": true,
+              "enabled": false,
               "props": {
                 "path": "sold-out"
               }
@@ -311,9 +311,9 @@
         }
       },
       "Market": {
-        "enabled": false,
+        "enabled": true,
         "props": {
-          "path": "/",
+          "path": "/market",
           "pages": {
             "All": {
               "enabled": true,
