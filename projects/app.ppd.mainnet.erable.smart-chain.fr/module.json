@@ -282,27 +282,27 @@
         }
       },
       "Launchpad": {
-        "enabled": true,
+        "enabled": false,
         "BannerCarrousel": {
-          "enabled": true
+          "enabled": false
         },
         "props": {
           "path": "/launchpad"
         }
       },
       "Launches": {
-        "enabled": true,
+        "enabled": false,
         "props": {
           "path": "/launches",
           "pages": {
             "InMint": {
-              "enabled": true,
+              "enabled": false,
               "props": {
                 "path": "in-mint"
               }
             },
             "SoldOut": {
-              "enabled": true,
+              "enabled": false,
               "props": {
                 "path": "sold-out"
               }
