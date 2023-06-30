@@ -45,7 +45,7 @@
           "enabled": false
         },
         "Market": {
-          "enabled": true
+          "enabled": false
         },
         "Utilities": {
           "enabled": true
