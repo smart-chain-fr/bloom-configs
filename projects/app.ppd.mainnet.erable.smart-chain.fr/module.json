@@ -283,6 +283,9 @@
       },
       "Launchpad": {
         "enabled": false,
+        "CollectionDrop": {
+          "enabled": true
+        },
         "BannerCarrousel": {
           "enabled": false
         },
