@@ -42,7 +42,7 @@
           "enabled": true
         },
         "Launchpad": {
-          "enabled": false
+          "enabled": true
         },
         "Market": {
           "enabled": true
@@ -154,10 +154,10 @@
           }
         },
         "Market": {
-          "enabled": false
+          "enabled": true
         },
         "Launchpad": {
-          "enabled": false
+          "enabled": true
         }
       }
     },
@@ -184,7 +184,7 @@
               "enabled": true
             },
             "Launchpad": {
-              "enabled": false
+              "enabled": true
             },
             "Market": {
               "enabled": false
