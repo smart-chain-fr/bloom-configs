@@ -341,6 +341,12 @@
       "info_1": "You need funds in {{tokenName}} in order to complete purchase. You can purchase {{tokenName}} by credit card by clicking in ",
       "info_2": "Once the transaction is confirmed, the NFT will be sent to your wallet instantly."
     },
+    "complete_mint": {
+      "title": "Complete mint",
+      "balance": "Balance",
+      "info_1": "To finalize the mint, you will require sufficient funds along with some natif tokens to cover the gas fees.",
+      "info_2": "Once the transaction is confirmed, the NFT will be sent to your wallet instantly."
+    },
     "add_funds": {
       "title": "Add funds to purchase",
       "need": "You need",
