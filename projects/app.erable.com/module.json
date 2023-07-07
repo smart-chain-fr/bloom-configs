@@ -574,10 +574,10 @@
         "enabled": true,
         "stats": {
           "totalSupply": {
-            "enabled": true
+            "enabled": false
           },
           "uniqueHolders": {
-            "enabled": true
+            "enabled": false
           },
           "floorPrice": {
             "enabled": false
@@ -586,7 +586,7 @@
             "enabled": false
           },
           "royalties": {
-            "enabled": true
+            "enabled": false
           }
         },
         "props": {
