@@ -344,10 +344,12 @@
     },
     "complete_mint": {
       "title": "Complete mint",
-      "button": "Mint",
+      "button":"Mint",
       "balance": "Balance",
       "info_1": "To finalize the mint, you will require sufficient funds along with some natif tokens to cover the gas fees.",
-      "info_2": "Once the transaction is confirmed, the NFT will be sent to your wallet instantly."
+      "info_2": "Once the transaction is confirmed, the NFT will be sent to your wallet instantly.",
+      "terms_and_conditions": "Terms and conditions",
+      "agree_info": "By checking this box, you agree to our "
     },
     "add_funds": {
       "title": "Add funds to purchase",
