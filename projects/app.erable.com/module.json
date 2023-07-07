@@ -153,11 +153,11 @@
             }
           }
         },
-        "Market": {
-          "enabled": true
-        },
         "Launchpad": {
-          "enabled": true
+          "enabled": false
+        },
+        "Market": {
+          "enabled": false
         }
       }
     },
@@ -275,7 +275,10 @@
       "Home": {
         "enabled": false,
         "props": {
-          "path": { "pathname": "/", "hash": "#" }
+          "path": {
+            "pathname": "/",
+            "hash": "#"
+          }
         }
       },
       "Launchpad": {
@@ -284,7 +287,7 @@
           "enabled": true
         },
         "BannerCarrousel": {
-          "enabled": false
+          "enabled": true
         },
         "props": {
           "path": "/launchpad"
@@ -571,10 +574,10 @@
         "enabled": true,
         "stats": {
           "totalSupply": {
-            "enabled": false
+            "enabled": true
           },
           "uniqueHolders": {
-            "enabled": false
+            "enabled": true
           },
           "floorPrice": {
             "enabled": false
@@ -583,7 +586,7 @@
             "enabled": false
           },
           "royalties": {
-            "enabled": false
+            "enabled": true
           }
         },
         "props": {
