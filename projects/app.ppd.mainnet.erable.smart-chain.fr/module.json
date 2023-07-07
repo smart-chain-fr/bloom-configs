@@ -42,10 +42,10 @@
           "enabled": true
         },
         "Launchpad": {
-          "enabled": false
+          "enabled": true
         },
         "Market": {
-          "enabled": false
+          "enabled": true
         },
         "Utilities": {
           "enabled": true
@@ -287,7 +287,7 @@
           "enabled": true
         },
         "BannerCarrousel": {
-          "enabled": false
+          "enabled": true
         },
         "props": {
           "path": "/launchpad"
