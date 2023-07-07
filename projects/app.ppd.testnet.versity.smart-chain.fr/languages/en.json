@@ -199,7 +199,8 @@
       "collection_drop": {
         "sale_comming_soon": "Sale comming soon",
         "access_secondary_market": "Access the secondary market",
-        "mint": "Mint"
+        "mint": "Mint",
+        "sold_out_info":"Now join the adventure by investing on the secondary market"
       }
     },
     "nft": {
