@@ -184,7 +184,7 @@
               "enabled": true
             },
             "Launchpad": {
-              "enabled": true
+              "enabled": false
             },
             "Market": {
               "enabled": false
@@ -282,12 +282,12 @@
         }
       },
       "Launchpad": {
-        "enabled": true,
+        "enabled": false,
         "CollectionDrop": {
-          "enabled": true
+          "enabled": false
         },
         "BannerCarrousel": {
-          "enabled": true
+          "enabled": false
         },
         "props": {
           "path": "/launchpad"
