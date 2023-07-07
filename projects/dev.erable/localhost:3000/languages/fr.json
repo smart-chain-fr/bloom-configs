@@ -344,6 +344,7 @@
     },
     "complete_mint": {
       "title": "Complete mint",
+      "button": "Mint",
       "balance": "Balance",
       "info_1": "To finalize the mint, you will require sufficient funds along with some natif tokens to cover the gas fees.",
       "info_2": "Once the transaction is confirmed, the NFT will be sent to your wallet instantly."
