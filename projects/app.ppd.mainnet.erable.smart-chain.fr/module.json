@@ -42,7 +42,7 @@
           "enabled": true
         },
         "Launchpad": {
-          "enabled": false
+          "enabled": true
         },
         "Market": {
           "enabled": true
@@ -154,7 +154,7 @@
           }
         },
         "Launchpad": {
-          "enabled": false
+          "enabled": true
         },
         "Market": {
           "enabled": true
@@ -341,7 +341,7 @@
             }
           },
           "BannerCarrousel": {
-            "enabled": true
+            "enabled": false
           },
           "Category": {
             "enabled": false
