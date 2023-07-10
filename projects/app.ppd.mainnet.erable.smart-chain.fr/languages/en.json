@@ -440,6 +440,7 @@
   "nft": {
     "price": "Price",
     "info": {
+      "already_whitelisted": "You are whitelisted",
       "whitelisted": "You've been whitelisted",
       "not_whitelisted": "You are not whitelisted",
       "highest_bidder": "You are the highest bidder",
