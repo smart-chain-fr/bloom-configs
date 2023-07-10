@@ -36,7 +36,8 @@
     "mint_schedule": "Mint schedule",
     "limit": "Limit",
     "per_wallet": "per wallet",
-    "minted": "Minted"
+    "minted": "Minted",
+    "starts_in": "Starts in"
   },
   "header": {
     "send": "Send",

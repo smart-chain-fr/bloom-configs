@@ -36,7 +36,8 @@
     "mint_schedule": "Mint schedule",
     "limit": "Limit",
     "per_wallet": "per wallet",
-    "minted": "Minted"
+    "minted": "Minted",
+    "starts_in": "Starts in"
   },
   "header": {
     "send": "Send",
@@ -202,7 +203,7 @@
         }
       },
       "collection_drop": {
-        "sale_comming_soon": "Sale comming soon",
+        "sale_comming_soon": "The sale starts soon",
         "access_secondary_market": "Access the secondary market",
         "mint": "Mint",
         "sold_out_info": "Now join the adventure by investing on the secondary market"
