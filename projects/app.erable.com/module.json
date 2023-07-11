@@ -533,7 +533,7 @@
             }
           },
           "ProgressBars": {
-            "enabled": false,
+            "enabled": true,
             "props": {
               "path": "/components/progressbars"
             }
