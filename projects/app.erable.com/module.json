@@ -45,7 +45,7 @@
           "enabled": false
         },
         "Market": {
-          "enabled": false
+          "enabled": true
         },
         "Utilities": {
           "enabled": true
@@ -154,10 +154,10 @@
           }
         },
         "Launchpad": {
-          "enabled": false
+          "enabled": true
         },
         "Market": {
-          "enabled": false
+          "enabled": true
         }
       }
     },
@@ -282,12 +282,12 @@
         }
       },
       "Launchpad": {
-        "enabled": false,
+        "enabled": true,
         "CollectionDrop": {
-          "enabled": false
+          "enabled": true
         },
         "BannerCarrousel": {
-          "enabled": false
+          "enabled": true
         },
         "props": {
           "path": "/launchpad"
@@ -341,7 +341,7 @@
             }
           },
           "BannerCarrousel": {
-            "enabled": true
+            "enabled": false
           },
           "Category": {
             "enabled": false

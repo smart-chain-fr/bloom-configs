@@ -145,7 +145,7 @@
             "executed_order": "Executed order",
             "canceled_order": "Canceled order",
             "execute_buy_now": "Bought",
-            "Transferred": "Transferred"
+            "Transfered": "Transferred"
           }
         },
         "project_info": {
@@ -510,7 +510,7 @@
       "sold_by_auction": "Sold by auction",
       "canceled_auction": "Canceled auction",
       "expired_auction": "Expired auction",
-      "Transferred": "Transferred",
+      "Transfered": "Transferred",
       "canceled_order": "Canceled order",
       "executed_order": "Executed order"
     },
