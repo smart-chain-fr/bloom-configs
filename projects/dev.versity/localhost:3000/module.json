@@ -154,6 +154,9 @@
         },
         "Market": {
           "enabled": true
+        },
+        "Launchpad": {
+          "enabled": true
         }
       }
     },
@@ -261,7 +264,7 @@
           "enabled": true,
           "props": {
             "copyPasteButton": {
-              "enabled": true
+              "enabled": false
             }
           }
         }
@@ -269,13 +272,19 @@
     },
     "pages": {
       "Home": {
-        "enabled": true,
+        "enabled": false,
         "props": {
           "path": { "pathname": "/", "hash": "#" }
         }
       },
       "Launchpad": {
         "enabled": true,
+        "CollectionDrop": {
+          "enabled": true
+        },
+        "BannerCarrousel": {
+          "enabled": true
+        },
         "props": {
           "path": "/launchpad"
         }
