@@ -224,7 +224,7 @@
     "binance": "https://api.binance.com/api/v3"
   },
   "socket": {
-    "url": "https://ws.ppd.mainnet.bloom-exchange.smart-chain.fr"
+    "url": "https://exchange-websocket-ubcjtylcra-ez.a.run.app"
   },
   "sentry": {
     "enabled": true,
