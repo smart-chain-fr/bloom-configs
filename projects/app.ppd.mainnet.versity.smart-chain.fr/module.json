@@ -10,27 +10,19 @@
     "Theme": {
       "enabled": false
     },
-    "graphicalChart": {
-      "errorButtonRed": {
-        "enabled": false
-      },
-      "errorButtonPrimary": {
-        "enabled": true
-      }
-    },
     "Marketplace": {
       "primary": {
-        "enabled": false
+        "enabled": true
       },
       "secondary": {
-        "enabled": false
+        "enabled": true
       }
     },
     "NFT": {
       "enabled": true,
       "props": {
         "hover": {
-          "enabled": false
+          "enabled": true
         }
       }
     },
@@ -162,6 +154,9 @@
         },
         "Market": {
           "enabled": true
+        },
+        "Launchpad": {
+          "enabled": true
         }
       }
     },
@@ -206,10 +201,10 @@
     "Modals": {
       "props": {
         "AddFunds": {
-          "enabled": false
+          "enabled": true
         },
         "CreateAuction": {
-          "enabled": false
+          "enabled": true
         },
         "hasAuctionAndFixedPricePurchase": {
           "enabled": true
@@ -217,29 +212,85 @@
         "hasCurrencySymbolDisplayed": {
           "enabled": true
         },
-        "RegisterModalEmailAtTheTop": {
-          "enabled": true
+        "RegisterModal": {
+          "props": {
+            "fields": {
+              "email": {
+                "enabled": true,
+                "props": {
+                  "required": true
+                }
+              },
+              "userName": {
+                "enabled": true,
+                "props": {
+                  "required": true
+                }
+              },
+              "lastName": {
+                "enabled": true,
+                "props": {
+                  "required": true
+                }
+              },
+              "firstName": {
+                "enabled": true,
+                "props": {
+                  "required": true
+                }
+              }
+            }
+          }
         },
-        "RegisterModalEmailAtTheBottom": {
-          "enabled": false
+        "durationOptions": [
+          {
+            "label": "24h",
+            "value": "1"
+          },
+          {
+            "label": "3 days",
+            "value": "3"
+          },
+          {
+            "label": "1 week",
+            "value": "7"
+          },
+          {
+            "label": "1 month",
+            "value": "30"
+          }
+        ],
+        "verificationModal": {
+          "enabled": true,
+          "props": {
+            "copyPasteButton": {
+              "enabled": false
+            }
+          }
         }
       }
     },
     "pages": {
       "Home": {
-        "enabled": true,
+        "enabled": false,
         "props": {
           "path": { "pathname": "/", "hash": "#" }
         }
       },
       "Launchpad": {
-        "enabled": false,
+        "enabled": true,
+        "CollectionDrop": {
+          "enabled": true
+        },
+        "BannerCarrousel": {
+          "enabled": true
+        },
         "props": {
           "path": "/launchpad"
         }
       },
       "Launches": {
-        "enabled": false,
+        "enabled": true,
         "props": {
           "path": "/launches",
           "pages": {
@@ -262,7 +313,7 @@
         }
       },
       "Market": {
-        "enabled": false,
+        "enabled": true,
         "props": {
           "path": "/market",
           "pages": {
@@ -363,7 +414,7 @@
             "Nfts": {
               "enabled": true,
               "props": {
-                "path": "parsells"
+                "path": "mynfts"
               }
             }
           }
@@ -377,13 +428,71 @@
             "General": {
               "enabled": true,
               "props": {
-                "path": "/settings"
+                "path": "/settings",
+                "fields": {
+                  "userName": {
+                    "enabled": true,
+                    "props": {
+                      "required": true
+                    }
+                  },
+                  "firstName": {
+                    "enabled": true,
+                    "props": {
+                      "required": true
+                    }
+                  },
+                  "lastName": {
+                    "enabled": true,
+                    "props": {
+                      "required": true
+                    }
+                  },
+                  "email": {
+                    "enabled": true,
+                    "props": {
+                      "required": true
+                    }
+                  },
+                  "bio": {
+                    "enabled": true,
+                    "props": {
+                      "required": false
+                    }
+                  }
+                }
               }
             },
             "SocialMedia": {
               "enabled": true,
               "props": {
-                "path": "/settings/social-media"
+                "path": "/settings/social-media",
+                "fields": {
+                  "facebook": {
+                    "enabled": true
+                  },
+                  "twitter": {
+                    "enabled": true
+                  },
+                  "instagram": {
+                    "enabled": true
+                  },
+                  "linkedin": {
+                    "enabled": false
+                  },
+                  "telegram": {
+                    "enabled": false
+                  },
+                  "medium": {
+                    "enabled": true
+                  },
+                  "discord": {
+                    "enabled": true
+                  },
+                  "personalWebsite": {
+                    "enabled": true
+                  }
+                }
               }
             }
           }
@@ -458,7 +567,7 @@
         }
       },
       "Collection": {
-        "enabled": false,
+        "enabled": true,
         "stats": {
           "totalSupply": {
             "enabled": true
@@ -467,10 +576,10 @@
             "enabled": true
           },
           "floorPrice": {
-            "enabled": false
+            "enabled": true
           },
           "exchangedVolume": {
-            "enabled": false
+            "enabled": true
           },
           "royalties": {
             "enabled": true
@@ -494,14 +603,14 @@
             "Nfts": {
               "enabled": true,
               "props": {
-                "path": "parsells"
+                "path": "nfts"
               }
             }
           }
         }
       },
       "NFT": {
-        "enabled": false,
+        "enabled": true,
         "props": {
           "path": "/asset/:collectionAddress/:tokenId"
         }

@@ -12,7 +12,7 @@
   },
   "head": {
     "description": "A marketplace dedicated to the launch, exchange and monitoring of digital assets aimed at funding the ecological transition.",
-    "title": "Erable"
+    "title": "Versity"
   },
   "blockchain": {
     "type": "ethereum",
@@ -224,7 +224,7 @@
     "binance": "https://api.binance.com/api/v3"
   },
   "socket": {
-    "url": "https://ws.ppd.mainnet.bloom-exchange.smart-chain.fr"
+    "url": "https://exchange-websocket-ubcjtylcra-ez.a.run.app"
   },
   "sentry": {
     "enabled": true,
