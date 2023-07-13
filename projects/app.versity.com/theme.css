@@ -223,7 +223,7 @@
   --tag-live-mint-background: var(--color-primary-500);
   --tag-sale-background: var(--color-neutral-200);
   --tag-eligible-background: var(--color-success-900);
-  --tag-eligible-color: var(--color-success-900);
+  --tag-eligible-color: var(--color-neutral-900);
   --tag-background-color: var(--color-neutral-900);
   --tag-background-color-hover: var(--color-neutral-800);
   --tag-background-color-active: var(--color-neutral-700);
